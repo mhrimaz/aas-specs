@@ -17,17 +17,17 @@
 						<dataSpecificationIec61360>
 							<preferredName>
 								<langStringPreferredNameTypeIec61360>
-									<language>X-33DQI-g</language>
+									<language>i-enochian</language>
 									<text>something_84b0b440</text>
 								</langStringPreferredNameTypeIec61360>
 								<langStringPreferredNameTypeIec61360>
-									<language>en-UK</language>
+									<language>en-GB</language>
 									<text>Something random in English 5b15c20d</text>
 								</langStringPreferredNameTypeIec61360>
 							</preferredName>
 							<definition>
 								<langStringDefinitionTypeIec61360>
-									<language>X-33DQI-g</language>
+									<language>en-US</language>
 									<text>something_29357dd5</text>
 								</langStringDefinitionTypeIec61360>
 							</definition>

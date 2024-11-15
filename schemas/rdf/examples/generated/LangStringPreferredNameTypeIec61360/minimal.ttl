@@ -21,12 +21,12 @@
             rdf:type aas:DataSpecificationIec61360 ;
             <https://admin-shell.io/aas/3/0/DataSpecificationIec61360/preferredName> [
                 rdf:type aas:LangStringPreferredNameTypeIec61360 ;
-                <https://admin-shell.io/aas/3/0/AbstractLangString/language> "X-33DQI-g"^^xs:string ;
+                <https://admin-shell.io/aas/3/0/AbstractLangString/language> "sl-rozaj-biske"^^xs:string ;
                 <https://admin-shell.io/aas/3/0/AbstractLangString/text> "something_c98d9907"^^xs:string ;
             ] ;
             <https://admin-shell.io/aas/3/0/DataSpecificationIec61360/preferredName> [
                 rdf:type aas:LangStringPreferredNameTypeIec61360 ;
-                <https://admin-shell.io/aas/3/0/AbstractLangString/language> "en-UK"^^xs:string ;
+                <https://admin-shell.io/aas/3/0/AbstractLangString/language> "en-GB"^^xs:string ;
                 <https://admin-shell.io/aas/3/0/AbstractLangString/text> "Something random in English 5b15c20d"^^xs:string ;
             ] ;
             <https://admin-shell.io/aas/3/0/DataSpecificationIec61360/value> "something_13759f45"^^xs:string ;
