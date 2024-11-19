@@ -10,16 +10,70 @@ Combining both worlds, the RDF mapping of the Asset Administration Shell can pro
 
 The concepts of the RDF and the derived RDF serialization of the AAS are explained by the mapping rules. These rules are implemented by the [generators](https://github.com/aas-core-works/aas-core-codegen) used to create the ontology and shacl files based on the independent project [aas-core-works](https://github.com/aas-core-works/). The main design rules the following:
 
-- The default serialization format is Turtle - also for the ontology and the shapes. However, several equivalent serializations exist for RDF. Among them, the Turtle syntax is regarded as the most appropriate compromise between readability and tool-support. Other formats (RDF/XML, JSON-LD, N3, etc.) can be used without any loss of information.
-- [Shape Graphs](./shacl-schema.ttl) represent the validation schema. The data model itself is an [RDF ontology](./rdf-ontology.ttl). As RDF itself is following the open-world-assumption, [SHACL](https://www.w3.org/TR/shacl/) constraints are necessary in order to enable schema validation. Similarly to XSD for XML, the SHACL format can be used to describe constraints (called shapes) of RDF graphs.
-- Every entity is encoded as either an IRI or a Literal. RDF uses IRIs for both entities and relations. If no IRI is predefined, a globally unique IRI is generated. Primitive values are encoded as Typed Literals.
-- Entities are enhanced with well-known RDF attributes. Interoperability of concepts and attributes is the main advantage of the RDF mapping. Therefore, applying common attributes (`rdf:type` (similar to `modelType` discriminator in JSON), `rdfs:label`, and `rdfs:comment`) enables the usage of standard tools and interfaces.
-- Repeating elements are described once and then linked using their IRI identifier. If a distinct element appears more than one time in the original model but in a different context, for instance in more than one submodel, the RDF entity represents the combination of all attributes.
-- Multilanguage Strings are split into distinct language strings (`rdf:langString`). Objects are expected to contain a singular information entity, and the currently available tools would not recognize the AAS LangString pattern.
-- Multiple object values are represented by repeating the property, one for each value object.
-- Abstract AAS classes are modeled in the ontology, nevertheless, using them leads to validation errors in the shapes. RDF does not contain a concept for abstract classes, therefore custom checks using SPARQL queries are supplied.
+### Default Serialization Format
+- Turtle (`.ttl`) MUST be used as the default serialization format for both AAS Ontology and SHACL shapes.
+- Other RDF serializations (e.g., JSON-LD, RDF/XML, N-Triples) MAY be supported, provided they maintain equivalent semantics to the Turtle representation.
 
-#### Note: Pattern Deviation from the Specification
+### Data Instance Serialization
+
+- RDF graphs MUST be used to represent AAS data instances.
+- Identifiers for AAS elements MUST be globally unique IRIs.
+
+Every entity MUST be encoded as either an IRI or a Literal:
+
+1. **IRIs for Entities and Relations**:
+   - RDF uses IRIs to represent both entities and relationships.
+   - If no predefined IRI exists for an AAS element, a globally unique IRI MUST be generated.
+   - For RDF resources (`rdf:Resource`) that do not have a corresponding element in AAS, the generation of IRIs is delegated to the client.
+
+2. **Client and Implementor Responsibilities**:
+   - Clients and implementors MUST NOT rely on the specific structure or format of an IRI.
+   - Instead, they MUST depend solely on the elements defined within the AAS specification to ensure interoperability.
+   - While a client MAY adopt a specific scheme for generating IRIs (e.g., for performance optimization or other valid reasons), these implementations MUST NOT alter the semantics defined by the AAS ontology.
+
+3. **Typed Literals for Primitive Values**:
+   - Primitive values MUST be encoded as **Typed Literals** in RDF.
+   - Appropriate `xsd` datatypes (e.g., `xsd:string`, `xsd:integer`, `xsd:dateTime`) MUST be used to ensure semantic clarity.
+
+4. **Resolution of IRIs**:
+   - While AAS has its own resolution mechanism for ids, it is not mandatory for IRIs to be **resolvable** or to support **content negotiation**.
+   - However, it is considered **best practice** to make IRIs resolvable and to support content negotiation to enhance interoperability and provide richer semantics.
+
+### Round-Tripability of Serializations
+
+The AAS specification supports multiple serialization formats, including **JSON**, **XML**, and **RDF**. All these formats SHOULD be **round-tripable**, meaning that data serialized in one format must be convertible back into the original format without loss of information or change in semantics.
+
+1. **Round-Trip Consistency**:
+   - Clients MUST ensure that a **canonicalized JSON** representation of AAS produces a valid RDF graph.
+   - The RDF graph MUST be able to be round-tripped back into the same **canonicalized JSON** representation.
+   - This round-trip process ensures that no data is lost or altered during the conversion between serialization formats.
+
+2. **Handling Lists in JSON**:
+   - Since JSON serializes elements that do not semantically have an order (such as elements within a `Submodel`) as lists, special care MUST be taken when handling such elements.
+   - To preserve semantic meaning and ensure consistent round-tripability, a **CanonicalAAS/JSON** representation SHOULD be used for lists where order does not matter.
+
+3. **Client and Implementor Responsibility**:
+   - Regardless of the serialization format used, **clients MUST ensure round-tripability** between JSON, XML, and RDF formats.
+   - Clients MUST ensure that converting data between these formats does not alter the semantic content or structure of the AAS instance.
+
+This principle guarantees that AAS data remains consistent and accurately represented, regardless of the serialization format used, promoting interoperability across different systems and tools.
+
+### Extension of AAS Instances
+
+Implementors MAY decide to add further information internally to instances of AAS, such as using external vocabularies like **DCAT** for data provenance. However, such extra information MUST NOT be communicated or shared in a way that extends beyond the AAS specification.
+
+1. **Interoperability Considerations**:
+   - The inclusion of additional information is permitted for internal use by the implementor but MUST NOT be communicated externally.
+   - This restriction is in place to ensure **interoperability** across implementations and to reduce **heterogeneity** in AAS data exchanges.
+
+2. **Client and Library Behavior**:
+   - Clients and libraries processing AAS/RDF MUST **ignore** any extra attributes that are outside the scope of AAS.
+   - Clients and libraries MUST only raise an error if there is an issue within the scope of AAS, including violations of its semantic model or structural integrity.
+   - If extra attributes or non-AAS-related data are encountered, they should be treated as non-relevant and should not interfere with the core processing of AAS data.
+
+This ensures that AAS data instances remain consistent and standardized across implementations, preserving the core semantics of AAS while allowing for internal extensions where necessary.
+
+### Note: Pattern Deviation from the Specification
 Since most RDFS engines we tested operated on UTF-16 and could not handle UTF-32, we transpiled the pattern from AASd-130, which uses UTF-32 in the specification, into UTF-16. This is a trade-off between correctness and practicality. See [#362](https://github.com/admin-shell-io/aas-specs/issues/362) for the details.
 
 ## Example Overview
