@@ -181,7 +181,7 @@ In JSON:
 ]
 
 .2+e|[[MessageTopicType]]MessageTopicType 2+| `\https://admin-shell.io/aas/3/1/MessageTopicType`
-a|_string_ with max 128 and min 1 characters |
+a|_string_ with max 255 and min 1 characters |
 
 .2+e|[[MultiLanguageNameType]]MultiLanguageNameType 2+| `\https://admin-shell.io/aas/3/1/MultiLanguageNameType`
 a| xref:LangStringSet[LangStringSet]
