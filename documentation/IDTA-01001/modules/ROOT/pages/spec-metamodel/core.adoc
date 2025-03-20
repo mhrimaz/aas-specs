@@ -90,8 +90,8 @@ h|ID: 3+| `\https://admin-shell.io/aas/3/1/AssetInformation`
 .2+h|Attribute 3+h| ID
 h|Explanation h|Type h|Card.
 
-.2+e|[assetKind]]assetKind  3+| `\https://admin-shell.io/aas/3/1/AssetInformation/assetKind`
-a|Denotes whether the _Asset_ is of kind "Type", Instance", "Role" or none of these types is applicable |xref:AssetKind[AssetKind]|1
+.2+e|[[assetKind]]assetKind  3+| `\https://admin-shell.io/aas/3/1/AssetInformation/assetKind`
+a|Denotes whether the asset is of kind "Type", Instance", "Role" or none of these types is applicable |xref:AssetKind[AssetKind]|1
 
 .2+e|[[globalAssetId]]globalAssetId 3+| `\https://admin-shell.io/aas/3/1/AssetInformation/globalAssetId`
 a|
