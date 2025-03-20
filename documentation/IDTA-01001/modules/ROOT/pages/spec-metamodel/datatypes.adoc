@@ -148,40 +148,36 @@ Realization depends on the serialization rules for a technology.
 a|
 In xml:
 
+[source,xml]
+----
 <aas:langString lang="EN">This is a multi-language value in English</aas:langString>
-
-<aas:langString lang="DE"> Das ist ein Multi-Language-Wert in Deutsch </aas:langString>
+<aas:langString lang="DE">Das ist ein Multi-Language-Wert in Deutsch</aas:langString>
+----
 
 In rdf:
-
+[source,rdf]
+----
 "This is a multi-language value in English"@en ;
-
 "Das ist ein Multi-Language-Wert in Deutsch"@de
+----
 
 In JSON:
 
+[source,json,linenums]
+----
 "description": [
-
-  \{
-
-      "language":"en", 
-
-         "text": "This is a multi-language value in English."
-
-  },
-
-  \{
-
-"language":"de",
-
-"text": "Das ist ein Multi-Language-Wert in Deutsch." 
-
-   }
-
+   {
+     "language":"en",
+     "text": "This is a multi-language value in English."
+   },
+   {
+     "language":"de",
+     "text": "Das ist ein Multi-Language-Wert in Deutsch."
+   }
 ]
-
+----
 .2+e|[[MessageTopicType]]MessageTopicType 2+| `\https://admin-shell.io/aas/3/1/MessageTopicType`
-a|_string_ with max 128 and min 1 characters |
+a|_string_ with max 255 and min 1 characters |
 
 .2+e|[[MultiLanguageNameType]]MultiLanguageNameType 2+| `\https://admin-shell.io/aas/3/1/MultiLanguageNameType`
 a| xref:LangStringSet[LangStringSet]
