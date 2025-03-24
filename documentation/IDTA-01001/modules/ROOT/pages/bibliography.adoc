@@ -127,8 +127,9 @@ Available: https://www.w3.org/TR/shacl/
 ////
 
 [#bib31]
-[31] DIN SPEC 91406:2019 "Automatische Identifikation von physischen Objekten und Informationen zum physischen Objekt in IT-Systemen, insbesondere IoT-Systemen/Automatic identification of physical objects and information on physical objects in IT systems, particularly IoT systems".
-December 2019
+[31] DIN EN IEC 61406-1: "Identification Link - Part 1: General requirements (IEC 61406-1:2022)".
+December 2023. Online.
+Available: https://www.dinmedia.de/en/standard/din-en-iec-61406-1/372053652
 
 [#bib32]
 [32] F. Manola, E. Miller "RDF 1.1 Primer" W3C Recommendation, 2014, [Online].
