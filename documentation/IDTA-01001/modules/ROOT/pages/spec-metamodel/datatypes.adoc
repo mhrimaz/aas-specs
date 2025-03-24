@@ -383,7 +383,7 @@ NaN
 
 "2000-01-01+12:05"
 
-| e|xs:time |Times (hh:mm:ss.sss…​) with or without time zone a|
+| e|xs:time |Times (hh:mm:ss.sss…) with or without time zone a|
 "14:23:00"
 
 "14:23:00.527634Z"
