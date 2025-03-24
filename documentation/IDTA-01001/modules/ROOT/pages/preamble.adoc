@@ -25,8 +25,8 @@ This document focuses on:
 * an introduction to the need of mappings to suitable technologies used in different life cycle phases of a product, providing mappings for XML, JSON, and RDF.
 
 This document presumes some familiarity with the concept of the Asset Administration Shell.
-Some of the concepts are described in Annex A for convenience’s sake.
-The concepts are being standardized as IEC standard IEC 63278 series, xref:bibliography.adoc#bib44[[44\]] and xref:bibliography.adoc#bib43[[43\]].
+Some of the concepts are described in xref:annex/concepts-aas.adoc[] for convenience’s sake.
+The concepts are being standardized as IEC standard IEC 63278 series, xref:bibliography.adoc#bib44[[44\]] and xref:bibliography.adoc#bib37[[37\]].
 The main stakeholders addressed in this document are architects and software developers aiming to implement a digital twin using the Asset Administration Shell in an interoperable way.
 Additionally, the content can also be used as input for discussions with international standardization organizations and further initiatives.
 Please consult the continuously updated reading guide xref:bibliography.adoc#bib38[[38\]] for an overview of documents on the Asset Administration Shell.
