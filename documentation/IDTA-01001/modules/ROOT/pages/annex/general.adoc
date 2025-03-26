@@ -293,7 +293,7 @@ For example, properties within a submodel have local identifiers.
 
 Besides absolute URIs there are also relative URIs.
 
-See also DIN SPEC 91406 xref:bibliography.adoc#bib31[[31\]] for further information on identification.
+See also DIN EN IEC 61406 xref:bibliography.adoc#bib31[[31\]] for further information on identification.
 
 [#which-identifiers-for-which-elements]
 ===  Which Identifiers for Which Elements?
