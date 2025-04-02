@@ -162,7 +162,7 @@
           <xs:restriction base="xs:string">
             <xs:pattern value="([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+/([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+([ \t]*;[ \t]*([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+=(([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+|&quot;(([\t !#-\[\]-~]|[-ÿ])|\\([\t !-~]|[-ÿ]))*&quot;))*"/>
             <xs:minLength value="1"/>
-            <xs:maxLength value="100"/>
+            <xs:maxLength value="128"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
@@ -414,7 +414,7 @@
           <xs:restriction base="xs:string">
             <xs:pattern value="([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+/([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+([ \t]*;[ \t]*([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+=(([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+|&quot;(([\t !#-\[\]-~]|[-ÿ])|\\([\t !-~]|[-ÿ]))*&quot;))*"/>
             <xs:minLength value="1"/>
-            <xs:maxLength value="100"/>
+            <xs:maxLength value="128"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
@@ -814,7 +814,7 @@
           <xs:restriction base="xs:string">
             <xs:pattern value="([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+/([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+([ \t]*;[ \t]*([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+=(([!#$%&amp;'*+\-.^_`|~0-9a-zA-Z])+|&quot;(([\t !#-\[\]-~]|[-ÿ])|\\([\t !-~]|[-ÿ]))*&quot;))*"/>
             <xs:minLength value="1"/>
-            <xs:maxLength value="100"/>
+            <xs:maxLength value="128"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
@@ -933,7 +933,7 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
-      <xs:element name="valueId" type="reference_t"/>
+      <xs:element name="valueId" type="reference_t" minOccurs="0" maxOccurs="1"/>
     </xs:sequence>
   </xs:group>
   <xs:simpleType name="aasSubmodelElements_t">
@@ -1340,4 +1340,5 @@
       <xs:group ref="valueReferencePair"/>
     </xs:sequence>
   </xs:complexType>
+  <xs:element name="environment" type="environment_t"/>
 </xs:schema>

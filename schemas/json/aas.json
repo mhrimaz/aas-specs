@@ -260,7 +260,7 @@
               "allOf": [
                 {
                   "minLength": 1,
-                  "maxLength": 100
+                  "maxLength": 128
                 },
                 {
                   "pattern": "^([\\x09\\x0a\\x0d\\x20-\\ud7ff\\ue000-\\ufffd]|\\ud800[\\udc00-\\udfff]|[\\ud801-\\udbfe][\\udc00-\\udfff]|\\udbff[\\udc00-\\udfff])*$"
@@ -687,7 +687,7 @@
               "allOf": [
                 {
                   "minLength": 1,
-                  "maxLength": 100
+                  "maxLength": 128
                 },
                 {
                   "pattern": "^([\\x09\\x0a\\x0d\\x20-\\ud7ff\\ue000-\\ufffd]|\\ud800[\\udc00-\\udfff]|[\\ud801-\\udbfe][\\udc00-\\udfff]|\\udbff[\\udc00-\\udfff])*$"
@@ -1287,7 +1287,7 @@
           "allOf": [
             {
               "minLength": 1,
-              "maxLength": 100
+              "maxLength": 128
             },
             {
               "pattern": "^([\\x09\\x0a\\x0d\\x20-\\ud7ff\\ue000-\\ufffd]|\\ud800[\\udc00-\\udfff]|[\\ud801-\\udbfe][\\udc00-\\udfff]|\\udbff[\\udc00-\\udfff])*$"
@@ -1520,8 +1520,7 @@
         }
       },
       "required": [
-        "value",
-        "valueId"
+        "value"
       ]
     }
   }
