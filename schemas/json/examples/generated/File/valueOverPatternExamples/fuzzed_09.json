@@ -1,0 +1,87 @@
+{
+  "submodels": [
+    {
+      "id": "something_48c66017",
+      "modelType": "Submodel",
+      "submodelElements": [
+        {
+          "category": "something_d7cf2dff",
+          "contentType": "'VbrwFrYTU/fO7NnLxq   \t; \tMX.`10dB732`X5yRy=I56Ov9Us\t ;\t\t pRb~~hdw_C%2Zf=\"\"\t\t\t    \t\t\t \t \t\t \t  ; h=1t",
+          "description": [
+            {
+              "language": "es-419",
+              "text": "something_be9deae0"
+            }
+          ],
+          "displayName": [
+            {
+              "language": "zh-CN-a-myext-x-private",
+              "text": "something_535aeb51"
+            }
+          ],
+          "embeddedDataSpecifications": [
+            {
+              "dataSpecification": {
+                "keys": [
+                  {
+                    "type": "Submodel",
+                    "value": "urn:another-company15:2bd0986b"
+                  }
+                ],
+                "type": "ModelReference"
+              },
+              "dataSpecificationContent": {
+                "modelType": "DataSpecificationIec61360",
+                "preferredName": [
+                  {
+                    "language": "sl-rozaj-biske",
+                    "text": "something_7e795ee2"
+                  },
+                  {
+                    "language": "en-GB",
+                    "text": "Something random in English c8512bdf"
+                  }
+                ],
+                "value": "something_4e9c19b7"
+              }
+            }
+          ],
+          "extensions": [
+            {
+              "name": "something_aa1af8b3"
+            }
+          ],
+          "idShort": "nRdRe",
+          "modelType": "File",
+          "qualifiers": [
+            {
+              "type": "something_500f973e",
+              "valueType": "xs:long"
+            }
+          ],
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "urn:something00:f4547d0c"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "supplementalSemanticIds": [
+            {
+              "keys": [
+                {
+                  "type": "Submodel",
+                  "value": "urn:another-example10:42487f5a"
+                }
+              ],
+              "type": "ModelReference"
+            }
+          ],
+          "value": "q2t2uv://777646689268.160810318.01435447069935.47:/%Be/%04@%Cd@P%dc:C$&~x=;%3f9+;;sr-i=p,///;%D5@@x&;V@I%16/+;%e4,@%AA@Ih:%8Dg=%F8P,v%dE%3E%03%62%FB=$R,&%ac%71;u%11l8*;,;$%Faj:;;;%ee$%8b%EC@%4Alo;t,%0b%eB%D5%EA:%De;$$1:@/%8e%0D&9%C8M;@5%28%4E%BC@%34;;@%EC=tL)x(/M%D3%aF&%Ec;=%aa$$j;;%B3@hk=e:%DB%24Z;%F6%9E+%8e;=;%ba;;%b3;;p%f11=%34%c0;#lR:+k%BE4%EB"
+        }
+      ]
+    }
+  ]
+}

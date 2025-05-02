@@ -50,7 +50,7 @@
               "name": "something_aa1af8b3"
             }
           ],
-          "idShort": "Yf5",
+          "idShort": "pVz10Vz10vZZNO9hM",
           "inoutputVariables": [
             {
               "value": {
@@ -62,8 +62,6 @@
           "inputVariables": [
             {
               "value": {
-                "entityType": "SelfManagedEntity",
-                "globalAssetId": "urn:an-example03:cc3a7d47",
                 "idShort": "something_c8b0a9a0",
                 "modelType": "Entity"
               }
@@ -73,26 +71,8 @@
           "outputVariables": [
             {
               "value": {
-                "first": {
-                  "keys": [
-                    {
-                      "type": "Submodel",
-                      "value": "urn:another-example04:27451000"
-                    }
-                  ],
-                  "type": "ModelReference"
-                },
                 "idShort": "something_0921a907",
-                "modelType": "AnnotatedRelationshipElement",
-                "second": {
-                  "keys": [
-                    {
-                      "type": "Submodel",
-                      "value": "urn:example03:74d93fcf"
-                    }
-                  ],
-                  "type": "ModelReference"
-                }
+                "modelType": "AnnotatedRelationshipElement"
               }
             }
           ],

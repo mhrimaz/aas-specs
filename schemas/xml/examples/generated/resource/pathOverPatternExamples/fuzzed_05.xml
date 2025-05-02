@@ -1,12 +1,12 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<assetAdministrationShells>
 		<assetAdministrationShell>
 			<id>something_142922d6</id>
 			<assetInformation>
-				<assetKind>NotApplicable</assetKind>
+				<assetKind>Role</assetKind>
 				<globalAssetId>something_eea66fa1</globalAssetId>
 				<defaultThumbnail>
-					<path>file:/path/to/somewhere</path>
+					<path>/;=:&amp;%30%1a;77@%321%A4%21;%FC:=/;=,=%13y:%2D;+J%c6%bcU%D3;j1G:sg=%EcA%f3/@z%29%B7&amp;B;=#@H%8D=U%FE%5e%22%Db?,+</path>
 					<contentType>application/x-abiword</contentType>
 				</defaultThumbnail>
 			</assetInformation>

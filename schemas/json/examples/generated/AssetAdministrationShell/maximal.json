@@ -3,7 +3,7 @@
     {
       "administration": {},
       "assetInformation": {
-        "assetKind": "NotApplicable",
+        "assetKind": "Role",
         "globalAssetId": "something_eea66fa1"
       },
       "category": "something_1dc62cea",
@@ -61,7 +61,7 @@
         }
       ],
       "id": "something_142922d6",
-      "idShort": "PiXO1wyHierj",
+      "idShort": "nRdRe",
       "modelType": "AssetAdministrationShell",
       "submodels": [
         {

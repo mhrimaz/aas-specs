@@ -1,4 +1,4 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<conceptDescriptions>
 		<conceptDescription>
 			<extensions>
@@ -7,7 +7,7 @@
 				</extension>
 			</extensions>
 			<category>something_07a45fb3</category>
-			<idShort>Yf5</idShort>
+			<idShort>pVz10Vz10vZZNO9hM</idShort>
 			<displayName>
 				<langStringNameType>
 					<language>zh-Hant</language>
