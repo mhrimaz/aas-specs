@@ -99,11 +99,11 @@ _string_ with max 128 and min 1 characters
 Note: string conformant to RFC2046.
 ====
 
-===
+====
 A media type (also MIME type and content type) […] is a two-part identifier for file formats and format contents transmitted on the Internet.
 The link:https://www.iana.org/assignments/media-types/media-types.xhtml[Internet Assigned Numbers Authority (IANA)] is the official authority for the standardization and publication of these classifications.
 Media types were originally defined in Request for Comments 2045 in November 1996 as a part of MIME specification, for denoting type of email message content and attachments.footnote:[Wikipedia.org, date: 2018-04-09]
-===
+====
 
 a|
 application/pdf
@@ -248,7 +248,7 @@ a|
 "567"
 
 .2+e|[[ValueDataType]]ValueDataType 2+| `\https://admin-shell.io/aas/3/1/ValueDataType`
-a|_any xsd atomic type as specified via DataTypeDefXsd_ a|
+a|_any xsd atomic type as specified via xref:DataTypeDefXsd[DataTypeDefXsd]_ a|
 "This is a string value"
 
 10
