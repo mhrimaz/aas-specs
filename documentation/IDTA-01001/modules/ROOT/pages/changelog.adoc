@@ -36,7 +36,7 @@ They had separate sections and tables documenting the changes.
 ====
 
 
-== Changes V3.1 vs. V3.0.1
+== Changes V3.1 vs. V3.0.2
 
 Major Changes:
 
@@ -121,12 +121,12 @@ https://github.com/admin-shell-io/aas-specs/issues/361[#361],
 https://github.com/admin-shell-io/aas-specs/issues/385[#385])
 
 
-=== Metamodel Changes V3.1 vs. V3.0.1
+=== Metamodel Changes V3.1 vs. V3.0.2
 
 .Changes in Metamodel
 [cols="5%,42%,48%",options="header",]
 |===
-|*Nc* |*V3.1 Change w.r.t. V3.0.1* |*Comment*
+|*Nc* |*V3.1 Change w.r.t. V3.0.2* |*Comment*
 
 | {empty} | xref:spec-metamodel/core.adoc#AssetKind[AssetKind] a| Add new value "Role" to enumeration AssetKind
 | {empty} | xref:spec-metamodel/submodel-elements.adoc#BasicEventElement[BasicEventElement/lastUpdate] a| change data type from _dateTime_ to _DateTimeUtc_
@@ -147,7 +147,7 @@ https://github.com/admin-shell-io/aas-specs/issues/385[#385])
 .New Elements in Metamodel
 [cols="5%,41%,51%",options="header",]
 |===
-|{empty} |*New Elements V3.1 vs V3.0.1* |*Comment*
+|{empty} |*New Elements V3.1 vs V3.0.2* |*Comment*
 
 |{empty} | xref:spec-metamodel/referencing.adoc#AasContainerSubmodelElements[AasContainerSubmodelElements] | New enumeration for container submodel elements
 |{empty} | xref:spec-metamodel/referencing.adoc#AasNonContainerSubmodelElements[AasNonContainerSubmodelElements] | New enumeration for non-container submodel elements
