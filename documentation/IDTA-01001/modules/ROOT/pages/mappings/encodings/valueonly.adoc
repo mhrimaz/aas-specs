@@ -38,7 +38,7 @@ Values are only available for
 Capabilities are excluded from the serialization scope since only data containing elements are in the focus.
 They are consequently omitted in the serialization.
 
-The following rules shall be adhered to when serializing a submodel, a submodel collection or a submodel element list with the format "Value"footnote:[see SerializationModifier in Part 2 - IDTA-01002 - of the Specification of the Asset Administration Shell]:
+The following rules shall be adhered to when serializing a submodel, a submodel element collection or a submodel element list with the format "Value"footnote:[see SerializationModifier in Part 2 - IDTA-01002 - of the Specification of the Asset Administration Shell]:
 
 * A submodel or a submodel element collection is serialized as an unnamed JSON object.
 * A submodel element list is serialized as an JSON array.
@@ -53,6 +53,7 @@ If it is not a leaf element, the serialization rules must be transitively follow
 
 
 ** xref:spec-metamodel/submodel-elements.adoc#Property[Property]  is serialized as ${Property/idShort}: ${Property/value} where ${Property/value} is the JSON serialization of the respective property’s value in accordance with the data type to value mapping (see <<table-data-types-value-only>>).
+
 ** xref:spec-metamodel/submodel-elements.adoc#MultiLanguageProperty[MultiLanguageProperty]  is serialized as named JSON object with ${MultiLanguageProperty/idShort} as the name of the containing JSON property.
 The JSON object contains an array of JSON objects for each language of the _MultiLanguageProperty_ with the language as name and the corresponding localized string as value of the respective JSON property.
 The language name is defined as two chars according to ISO 639-1.
@@ -75,10 +76,10 @@ Since the receiver knows in advance if a File or a Blob SubmodelElement shall be
 For Blobs the value attribute is optional (in this case a Blob can be distinguished from a File).
 
 ** xref:spec-metamodel/submodel-elements.adoc#SubmodelElementCollection[SubmodelElementCollection] is serialized as named JSON object with ${SubmodelElementCollection/idShort} as the name of the containing JSON property.
-The elements contained within the struct are serialized according to their respective type with ${SubmodelElement/idShort} as the name of the containing JSON property.
+The elements contained within the struct, i.e. the elements in SubmodelElementCollection/value, are serialized according to their respective type with ${SubmodelElement/idShort} as the name of the containing JSON property.
 
 ** xref:spec-metamodel/submodel-elements.adoc#SubmodelElementList[SubmodelElementList] is serialized as a named JSON array with ${SubmodelElementList/idShort} as the name of the containing JSON property.
-The elements in the JSON array are the ValueOnly serializations of the elements contained in the SubmodelElementList while preserving the order, i.e. index n in the JSON array is the ValueOnly serialization of the element at index n of the SubmodelElementList.
+The elements in the JSON array, i.e. the elements in SubmodelElementList/value, are the ValueOnly serializations of the elements contained in the SubmodelElementList while preserving the order, i.e. index n in the JSON array is the ValueOnly serialization of the element at index n of the SubmodelElementList.
 
 ** xref:spec-metamodel/submodel-elements.adoc#ReferenceElement[ReferenceElement] is serialized as ${ReferenceElement/idShort}: ${ReferenceElement/value} where ${ReferenceElement/value} is the serialization of the _Reference_ class in format "Normal" (see above).
 
@@ -102,10 +103,10 @@ The first is named "statements" ${Entity/statements} and contains an array of th
 The second is named "globalAssetId" and the third "specificAssetIds".
 Either a "globalAssetId" value or a "specificAssetIds" value shall exist.
 The other attributes are optional.
-"SpecificAssetIds" is an array of objects serializing xref:spec-metamodel/core.adoc#SpecificAssetId[SpecificAssetId]. 
+"specificAssetIds" is an array of objects serializing xref:spec-metamodel/core.adoc#SpecificAssetId[SpecificAssetId]. 
 A single _SpecificAssetId_ in the array corresponds to the serialization of the _SpecificAssetId_ class in format "Normal".
 The forth property is named "entityType" and contains a string representation of ${Entity/entityType}.
-_Statements_ and the _entityType_ are optional.
+_statements_ and the _entityType_ are optional.
 
 ** xref:spec-metamodel/submodel-elements.adoc#BasicEventElement[BasicEventElement] is serialized as named JSON object with ${BasicEventElement/idShort} as the name of the containing JSON property.
 The JSON object contains one JSON property named "observed" with the corresponding value of ${BasicEventElement/observed} as the standard serialization of the _Reference_ class.
