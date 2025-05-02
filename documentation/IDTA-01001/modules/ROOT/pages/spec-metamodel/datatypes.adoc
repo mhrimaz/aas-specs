@@ -150,8 +150,8 @@ In xml:
 
 [source,xml]
 ----
-<aas:langString lang="EN">This is a multi-language value in English</aas:langString>
-<aas:langString lang="DE">Das ist ein Multi-Language-Wert in Deutsch</aas:langString>
+<aas:langString lang="en">This is a multi-language value in English</aas:langString>
+<aas:langString lang="de">Das ist ein Multi-Language-Wert in Deutsch</aas:langString>
 ----
 
 In rdf:
