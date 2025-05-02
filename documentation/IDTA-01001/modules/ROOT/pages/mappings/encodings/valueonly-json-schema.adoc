@@ -66,7 +66,7 @@ for an example that validates against this schema
         "contentType": {
           "type": "string",
           "minLength": "1",
-          "maxLength": "100"
+          "maxLength": "128"
         },
         "value": {
           "type": "string",
@@ -109,12 +109,12 @@ for an example that validates against this schema
         "contentType": {
           "type": "string",
           "minLength": "1",
-          "maxLength": "100"
+          "maxLength": "128"
         },
         "value": {
           "type": "string",
           "minLength": "1",
-          "maxLength": "2000"
+          "maxLength": "2048"
         }
       },
       "additionalProperties": false
