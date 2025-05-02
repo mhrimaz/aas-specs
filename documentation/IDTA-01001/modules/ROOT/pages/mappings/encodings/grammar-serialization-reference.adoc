@@ -48,9 +48,7 @@ Most examples in this document therefore do not use this prefix.
 [#examples-reference-serialization]
 === Examples for Text Serialization Type "Reference"
 
-[.underline]#Valid Examples:#
-
-[.underline]#External References#:
+[.underline]#Valid Examples for External References#:
 
 [example]
 ....
@@ -64,7 +62,8 @@ Most examples in this document therefore do not use this prefix.
 
 ....
 
-[.underline]#Model References:#
+
+[.underline]#Valid Examples for Model References#:
 
 [example]
 ....
@@ -87,4 +86,4 @@ Most examples in this document therefore do not use this prefix.
 
 In the last example the xref:spec-metamodel/common.adoc#HasSemantics[semanticId] of the property with idShort "Temperature" is expected to be "0173-1#02-BAA120#008", the xref:spec-metamodel/referencing.adoc#Reference[referredSemanticId].
 
-For further examples including invalid examples please see xref:spec-metamodel/referencing.adoc#constraints[Constraints for Referencing in Asset Administration Shells].
+For further examples including invalid examples please see xref:spec-metamodel/referencing.adoc#examples-for-references[Constraints for Referencing in Asset Administration Shells].
