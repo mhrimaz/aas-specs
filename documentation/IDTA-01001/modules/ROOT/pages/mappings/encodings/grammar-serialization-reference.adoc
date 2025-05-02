@@ -25,7 +25,9 @@ In this case, the following serialization is required:
 
 <ReferenceType> ::= "ExternalRef" | "ModelRef"     value of AAS:Reference/type
 
-<SemanticId> ::= ["[" <ReferenceType> "]"] <Key> {(", " <Key> }*     value of AAS:Reference/referredSemanticId
+<referredSemanticId> ::= <SemanticId>   value of AAS:Reference/referredSemanticId    value of AAS:Reference/referredSemanticId
+
+<SemanticId> ::= ["[" <ReferenceType> "]"] <Key> {(", " <Key> }*     
 
 <Key> ::= "(" <KeyType> ")" <KeyValue>
 
