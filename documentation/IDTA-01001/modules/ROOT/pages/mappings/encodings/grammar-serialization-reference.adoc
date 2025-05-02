@@ -42,7 +42,7 @@ A blank is added before the new key or value to distinguish beginning and end of
 ====
 Note 2: _ReferenceType_ is optional.
 It is clear from the first key in the key chain whether the reference is a global or a model reference.
-The examples in this document therefore do not use this prefix.
+Most examples in this document therefore do not use this prefix.
 ====
 
 [#examples-reference-serialization]

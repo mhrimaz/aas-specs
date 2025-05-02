@@ -1,6 +1,0 @@
-@startuml
-class File<DataElement> {
-  +value: PathType[0..1]
-  +contentType: ContentType[0..1]
-}
-@enduml
