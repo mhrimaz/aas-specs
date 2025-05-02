@@ -145,23 +145,34 @@ Note 2: a langString is a string value tagged with a language code.
 
 Realization depends on the serialization rules for a technology.
 
-a|
+a| Example for the attribute with name "description" of "Referable", i.e. of type "MultiLanguageTextType":
 In xml:
 
 [source,xml]
 ----
-<aas:langString lang="en">This is a multi-language value in English</aas:langString>
-<aas:langString lang="de">Das ist ein Multi-Language-Wert in Deutsch</aas:langString>
+<description>
+  <langStringTextType>
+    <language>en</language>
+	<text>This is a multi-language value in English</text>
+  </langStringTextType>
+  <langStringTextType>
+    <language>de</language>
+	<text>Das ist ein Multi-Language-Wert in Deutsch</text>
+  </langStringTextType>
+</description>
 ----
 
 In rdf:
 [source,rdf]
 ----
-"This is a multi-language value in English"@en ;
-"Das ist ein Multi-Language-Wert in Deutsch"@de
+<https://admin-shell.io/aas/3/1/Referable/description> [
+  rdf:type aas:LangStringTextType ;
+  <https://admin-shell.io/aas/3/1/AbstractLangString/language> "en"^^xs:string ;
+  <https://admin-shell.io/aas/3/1/AbstractLangString/text> "This is a multi-language value in English"^^xs:string ;
+] ;
 ----
 
-In JSON:
+In JSON :
 
 [source,json,linenums]
 ----

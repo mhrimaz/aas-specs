@@ -96,6 +96,7 @@ This means for certification a maximum of 32 recursion test cases should be test
 Bugfixes:
 
 * CHANGED: add missing `<referredSemanticId>` to grammar for textual representation of References https://github.com/admin-shell-io/aas-specs/issues/557[#557])
+* CHANGED: examples for LangStringSet (correct "DE" to "de" etc. and enhance examples)
 
 Editorial Bugfixes:
 
