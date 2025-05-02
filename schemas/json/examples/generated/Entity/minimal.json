@@ -5,7 +5,6 @@
       "modelType": "Submodel",
       "submodelElements": [
         {
-          "entityType": "CoManagedEntity",
           "idShort": "something3fdd3eb4",
           "modelType": "Entity"
         }

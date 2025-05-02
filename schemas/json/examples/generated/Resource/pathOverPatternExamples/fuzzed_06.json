@@ -2,10 +2,10 @@
   "assetAdministrationShells": [
     {
       "assetInformation": {
-        "assetKind": "NotApplicable",
+        "assetKind": "Role",
         "defaultThumbnail": {
           "contentType": "application/x-abiword",
-          "path": "file:/path/to/somewhere"
+          "path": "#;"
         },
         "globalAssetId": "something_eea66fa1"
       },

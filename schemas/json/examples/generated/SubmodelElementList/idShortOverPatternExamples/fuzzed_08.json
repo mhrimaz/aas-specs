@@ -50,7 +50,7 @@
               "name": "something_aa1af8b3"
             }
           ],
-          "idShort": "g1WbUAIAP_94",
+          "idShort": "EO5DYAe",
           "modelType": "SubmodelElementList",
           "orderRelevant": true,
           "qualifiers": [
@@ -91,8 +91,6 @@
           "typeValueListElement": "Entity",
           "value": [
             {
-              "entityType": "SelfManagedEntity",
-              "globalAssetId": "urn:something08:238de418",
               "modelType": "Entity"
             }
           ],

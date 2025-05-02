@@ -5,7 +5,7 @@
       "modelType": "Submodel",
       "submodelElements": [
         {
-          "category": "VARIABLE",
+          "category": "something_d7cf2dff",
           "contentType": "'VbrwFrYTU/fO7NnLxq   \t; \tMX.`10dB732`X5yRy=I56Ov9Us\t ;\t\t pRb~~hdw_C%2Zf=\"\"\t\t\t    \t\t\t \t \t\t \t  ; h=1t",
           "description": [
             {
@@ -21,6 +21,15 @@
           ],
           "embeddedDataSpecifications": [
             {
+              "dataSpecification": {
+                "keys": [
+                  {
+                    "type": "Submodel",
+                    "value": "urn:another-company15:2bd0986b"
+                  }
+                ],
+                "type": "ModelReference"
+              },
               "dataSpecificationContent": {
                 "modelType": "DataSpecificationIec61360",
                 "preferredName": [
@@ -42,7 +51,7 @@
               "name": "something_aa1af8b3"
             }
           ],
-          "idShort": "PiXO1wyHierj",
+          "idShort": "nRdRe",
           "modelType": "File",
           "qualifiers": [
             {
@@ -70,7 +79,7 @@
               "type": "ModelReference"
             }
           ],
-          "value": "file:///;/@@=%5a@@g@=S%D8:%f5;/@:/%A3&!%f8%6e;%a1!//~/%Ae%c2/%99O@,:"
+          "value": "RqjJsrvAJ1Uk:%9d'%8C_%81k,%Fcd?yw,@B,M=.EE%8E"
         }
       ]
     }

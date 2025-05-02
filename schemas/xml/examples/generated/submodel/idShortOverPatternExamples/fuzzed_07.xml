@@ -1,4 +1,4 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<submodels>
 		<submodel>
 			<extensions>
@@ -7,7 +7,7 @@
 				</extension>
 			</extensions>
 			<category>something_91042c92</category>
-			<idShort>g39dV</idShort>
+			<idShort>xF2bO_Uje6</idShort>
 			<displayName>
 				<langStringNameType>
 					<language>sl-IT-nedis</language>
@@ -80,24 +80,6 @@
 			<submodelElements>
 				<annotatedRelationshipElement>
 					<idShort>something3fdd3eb4</idShort>
-					<first>
-						<type>ModelReference</type>
-						<keys>
-							<key>
-								<type>Submodel</type>
-								<value>urn:another-company01:f390f801</value>
-							</key>
-						</keys>
-					</first>
-					<second>
-						<type>ModelReference</type>
-						<keys>
-							<key>
-								<type>AssetAdministrationShell</type>
-								<value>something_0e4b0931</value>
-							</key>
-						</keys>
-					</second>
 				</annotatedRelationshipElement>
 			</submodelElements>
 		</submodel>

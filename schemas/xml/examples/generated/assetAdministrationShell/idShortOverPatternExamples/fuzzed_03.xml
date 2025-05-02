@@ -1,4 +1,4 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<assetAdministrationShells>
 		<assetAdministrationShell>
 			<extensions>
@@ -7,7 +7,7 @@
 				</extension>
 			</extensions>
 			<category>something_1dc62cea</category>
-			<idShort>uI</idShort>
+			<idShort>Jk0k1414Di</idShort>
 			<displayName>
 				<langStringNameType>
 					<language>de</language>
@@ -60,7 +60,7 @@
 				</keys>
 			</derivedFrom>
 			<assetInformation>
-				<assetKind>NotApplicable</assetKind>
+				<assetKind>Role</assetKind>
 				<globalAssetId>something_eea66fa1</globalAssetId>
 			</assetInformation>
 			<submodels>

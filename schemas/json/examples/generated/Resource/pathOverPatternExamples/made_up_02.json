@@ -2,10 +2,10 @@
   "assetAdministrationShells": [
     {
       "assetInformation": {
-        "assetKind": "NotApplicable",
+        "assetKind": "Role",
         "defaultThumbnail": {
           "contentType": "application/x-abiword",
-          "path": "file://host.example.com/path/to/file"
+          "path": "ftp://ftp.is.co.za/rfc/rfc1808.txt"
         },
         "globalAssetId": "something_eea66fa1"
       },
