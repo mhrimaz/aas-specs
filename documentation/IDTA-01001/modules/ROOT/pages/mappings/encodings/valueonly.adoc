@@ -49,7 +49,7 @@ If it is not a leaf element, the serialization rules must be transitively follow
 * xref:spec-metamodel/core.adoc#SpecificAssetId[SpecificAssetId] is serialized in format "Normal".
 * xref:spec-metamodel/core.adoc#SubmodelElement[SubmodelElement]s without a value are not serialized.
 
-* For each submodel element within the submodel, the submodel collection or submodel list:
+* For each submodel element within the submodel, the submodel element collection or submodel element list:
 
 
 ** xref:spec-metamodel/submodel-elements.adoc#Property[Property]  is serialized as ${Property/idShort}: ${Property/value} where ${Property/value} is the JSON serialization of the respective property’s value in accordance with the data type to value mapping (see <<table-data-types-value-only>>).
