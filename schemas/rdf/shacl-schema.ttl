@@ -592,6 +592,7 @@ aas:ExtensionShape a sh:NodeShape ;
         sh:datatype xs:string ;
         sh:minCount 0 ;
         sh:maxCount 1 ;
+        sh:pattern "^([\\x09\\x0a\\x0d\\x20-\\ud7ff\\ue000-\\ufffd]|\\ud800[\\udc00-\\udfff]|[\\ud801-\\udbfe][\\udc00-\\udfff]|\\udbff[\\udc00-\\udfff])*$" ;
     ] ;
     sh:property [
         a sh:PropertyShape ;
@@ -944,6 +945,7 @@ aas:PropertyShape a sh:NodeShape ;
         sh:datatype xs:string ;
         sh:minCount 0 ;
         sh:maxCount 1 ;
+        sh:pattern "^([\\x09\\x0a\\x0d\\x20-\\ud7ff\\ue000-\\ufffd]|\\ud800[\\udc00-\\udfff]|[\\ud801-\\udbfe][\\udc00-\\udfff]|\\udbff[\\udc00-\\udfff])*$" ;
     ] ;
     sh:property [
         a sh:PropertyShape ;
@@ -1009,6 +1011,7 @@ aas:QualifierShape a sh:NodeShape ;
         sh:datatype xs:string ;
         sh:minCount 0 ;
         sh:maxCount 1 ;
+        sh:pattern "^([\\x09\\x0a\\x0d\\x20-\\ud7ff\\ue000-\\ufffd]|\\ud800[\\udc00-\\udfff]|[\\ud801-\\udbfe][\\udc00-\\udfff]|\\udbff[\\udc00-\\udfff])*$" ;
     ] ;
     sh:property [
         a sh:PropertyShape ;
@@ -1035,6 +1038,7 @@ aas:RangeShape a sh:NodeShape ;
         sh:datatype xs:string ;
         sh:minCount 0 ;
         sh:maxCount 1 ;
+        sh:pattern "^([\\x09\\x0a\\x0d\\x20-\\ud7ff\\ue000-\\ufffd]|\\ud800[\\udc00-\\udfff]|[\\ud801-\\udbfe][\\udc00-\\udfff]|\\udbff[\\udc00-\\udfff])*$" ;
     ] ;
     sh:property [
         a sh:PropertyShape ;
@@ -1042,6 +1046,7 @@ aas:RangeShape a sh:NodeShape ;
         sh:datatype xs:string ;
         sh:minCount 0 ;
         sh:maxCount 1 ;
+        sh:pattern "^([\\x09\\x0a\\x0d\\x20-\\ud7ff\\ue000-\\ufffd]|\\ud800[\\udc00-\\udfff]|[\\ud801-\\udbfe][\\udc00-\\udfff]|\\udbff[\\udc00-\\udfff])*$" ;
     ] ;
 .
 
