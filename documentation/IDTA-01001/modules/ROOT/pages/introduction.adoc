@@ -41,7 +41,7 @@ This part of the "Specifications of the Asset Administration Shell" series is th
 
 .Types of Information Exchange via Asset Administration Shells
 [[image-aas-info-exchange-types]]
-image::3-aas-info-exchange-types.jpeg[]
+image::3-aas-info-exchange-types.jpg[]
 
 File exchange (1) is described in detail in Part 5 of this document series.
 
