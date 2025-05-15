@@ -165,11 +165,12 @@ In xml:
 In rdf:
 [source,rdf]
 ----
-<https://admin-shell.io/aas/3/1/Referable/description> [
+[] <https://admin-shell.io/aas/3/1/Referable/description> [
   rdf:type aas:LangStringTextType ;
   <https://admin-shell.io/aas/3/1/AbstractLangString/language> "en"^^xs:string ;
   <https://admin-shell.io/aas/3/1/AbstractLangString/text> "This is a multi-language value in English"^^xs:string ;
 ] ;
+.
 ----
 
 In JSON :
