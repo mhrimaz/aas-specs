@@ -113,7 +113,7 @@ In case _AssetInformation/assetKind_ is not xref:AssetKind[NotApplicable] the _A
 
 ====
 Note: in case _AssetInformation/assetKind_ is xref:AssetKind[Instance]  then the AssetInformation/assetType denotes which xref:AssetKind[Type] the asset is of.
-But it is also possible to have an _AssetInformation/assetType_ of an asset of xref:AssetInformation#assetKind[kind] kind xref:AssetKind[Type].
+But it is also possible to have an _AssetInformation/assetType_ of an asset of xref:AssetKind[kind] xref:AssetKind[Type].
 ====
 
 
