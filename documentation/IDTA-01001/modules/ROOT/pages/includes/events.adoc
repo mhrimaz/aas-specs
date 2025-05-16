@@ -25,6 +25,7 @@ Note: the concept of event is still in the experimental phase.
 Please be aware that backward compatibility cannot be ensured for future versions of the metamodel.
 ====
 
+[[brief-use-cases-for-events-used-in-asset-administration-shells]]
 ===  Brief Use Cases for Events Used in Asset Administration Shells
 
 Event use cases are briefly outlined in the following:
@@ -63,7 +64,7 @@ An illustration of the use case is given in <<image-value-push-events-across-clo
 [[image-value-push-events-across-clouds]]
 image::10-value-push-events-across-clouds.jpeg[]
 
-[#input-and-output-directions-of-events]
+[[input-and-output-directions-of-events]]
 ===  Input and Output Directions of Events
 
 We can distinguish between incoming and outgoing events.
@@ -89,7 +90,7 @@ The uses cases described in  <<brief-use-cases-for-events-used-in-asset-administ
 Each event type is identified by a _semanticId_ and features a specialized payload.
 
 <<table-types-of-events>> gives an overview of types of events.
-The possible directions of an event are described in <<input-and-output-directions-of-events>.
+The possible directions of an event are described in  <<input-and-output-directions-of-events>>.
 
 .Types of Events
 [[table-types-of-events]]
