@@ -49,7 +49,7 @@ Sources: https://github.com/admin-shell-io/aas-specs[GitHub]
 
 Feedback:
 
-* https://github.com/admin-shell-io/aas-specs/issues/new/choose[new issues, bugs]
+* https://github.com/admin-shell-io/aas-specs-metamodel/issues/new/choose[new issues, bugs]
 
 * https://github.com/admin-shell-io/questions-and-answers[Questions and Answers]
 
