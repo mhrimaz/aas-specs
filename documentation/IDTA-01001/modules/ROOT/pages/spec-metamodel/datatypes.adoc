@@ -99,11 +99,11 @@ _string_ with max 128 and min 1 characters
 Note: string conformant to RFC2046.
 ====
 
-===
+====
 A media type (also MIME type and content type) […] is a two-part identifier for file formats and format contents transmitted on the Internet.
 The link:https://www.iana.org/assignments/media-types/media-types.xhtml[Internet Assigned Numbers Authority (IANA)] is the official authority for the standardization and publication of these classifications.
 Media types were originally defined in Request for Comments 2045 in November 1996 as a part of MIME specification, for denoting type of email message content and attachments.footnote:[Wikipedia.org, date: 2018-04-09]
-===
+====
 
 a|
 application/pdf
@@ -145,23 +145,35 @@ Note 2: a langString is a string value tagged with a language code.
 
 Realization depends on the serialization rules for a technology.
 
-a|
+a| Example for the attribute with name "description" of "Referable", i.e. of type "MultiLanguageTextType":
 In xml:
 
 [source,xml]
 ----
-<aas:langString lang="EN">This is a multi-language value in English</aas:langString>
-<aas:langString lang="DE">Das ist ein Multi-Language-Wert in Deutsch</aas:langString>
+<description>
+  <langStringTextType>
+    <language>en</language>
+	<text>This is a multi-language value in English</text>
+  </langStringTextType>
+  <langStringTextType>
+    <language>de</language>
+	<text>Das ist ein Multi-Language-Wert in Deutsch</text>
+  </langStringTextType>
+</description>
 ----
 
 In rdf:
 [source,rdf]
 ----
-"This is a multi-language value in English"@en ;
-"Das ist ein Multi-Language-Wert in Deutsch"@de
+[] <https://admin-shell.io/aas/3/1/Referable/description> [
+  rdf:type aas:LangStringTextType ;
+  <https://admin-shell.io/aas/3/1/AbstractLangString/language> "en"^^xs:string ;
+  <https://admin-shell.io/aas/3/1/AbstractLangString/text> "This is a multi-language value in English"^^xs:string ;
+] ;
+.
 ----
 
-In JSON:
+In JSON :
 
 [source,json,linenums]
 ----
@@ -248,7 +260,7 @@ a|
 "567"
 
 .2+e|[[ValueDataType]]ValueDataType 2+| `\https://admin-shell.io/aas/3/1/ValueDataType`
-a|_any xsd atomic type as specified via DataTypeDefXsd_ a|
+a|_any xsd atomic type as specified via xref:DataTypeDefXsd[DataTypeDefXsd]_ a|
 "This is a string value"
 
 10

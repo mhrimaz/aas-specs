@@ -18,14 +18,14 @@ In the second case, square brackets with an index "[<Index>]" are appended after
 In any case, the first item of any idShortPath is the idShort of the requested element.
 
 ====
-Note: Although idShort may be defined for elements within a SubmodelElementList, only the index shall be used within the IdShortPath serialization.
+Note: Although idShort may be defined for elements within a SubmodelElementList, only the index shall be used within the idShortPath serialization.
 ====
 
 [.underline]#Grammar:#
 
 [listing]
 ....
-<idShortPath> ::= <idShort> {["." <idShort> | "["<Index>"]" ]}* 
+<idShortPath> ::= <idShort> {[ "." <idShort> | "["<Index>"]" ]}* 
 
 <Index> ::= <Zero> | <PositiveNumber>
 
