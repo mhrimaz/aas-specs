@@ -30,7 +30,7 @@ For the schemas derived from this document (version 3.1) there is a dependency t
 
 == Notice
 
-Publisher: Industrial Digital Twin Association e.V. (IDTA)
+Copyright: Industrial Digital Twin Association e.V. (IDTA)
 
 IDTA Document Number: IDTA-01001-3-1
 
