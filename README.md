@@ -70,7 +70,7 @@ The following release contains the latest version of the AAS schemas
 section of this repository):
 
 * [3.1.0](https://github.com/admin-shell-io/aas-specs-metamodel/releases/tag/v3.1.0)
-* is the latest release for the `V3.1.0` version of the AAS metamodel, 
+is the latest release for the `V3.1.0` version of the AAS metamodel, 
 containing the normative schemas for the published document
  "Specification of the Asset Administration Shell: Part 1 - **Version 3.1.0**", 
 including a number of minor bugfixes in the schema files. 
