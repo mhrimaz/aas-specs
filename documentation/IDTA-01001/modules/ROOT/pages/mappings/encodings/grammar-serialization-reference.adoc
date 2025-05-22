@@ -25,7 +25,9 @@ In this case, the following serialization is required:
 
 <ReferenceType> ::= "ExternalRef" | "ModelRef"     value of AAS:Reference/type
 
-<SemanticId> ::= ["[" <ReferenceType> "]"] <Key> {(", " <Key> }*     value of AAS:Reference/referredSemanticId
+<referredSemanticId> ::= <SemanticId>   value of AAS:Reference/referredSemanticId    value of AAS:Reference/referredSemanticId
+
+<SemanticId> ::= ["[" <ReferenceType> "]"] <Key> {(", " <Key> }*     
 
 <Key> ::= "(" <KeyType> ")" <KeyValue>
 
@@ -42,15 +44,13 @@ A blank is added before the new key or value to distinguish beginning and end of
 ====
 Note 2: _ReferenceType_ is optional.
 It is clear from the first key in the key chain whether the reference is a global or a model reference.
-The examples in this document therefore do not use this prefix.
+Most examples in this document therefore do not use this prefix.
 ====
 
 [#examples-reference-serialization]
 === Examples for Text Serialization Type "Reference"
 
-[.underline]#Valid Examples:#
-
-[.underline]#External References#:
+[.underline]#Valid Examples for External References#:
 
 [example]
 ....
@@ -64,7 +64,8 @@ The examples in this document therefore do not use this prefix.
 
 ....
 
-[.underline]#Model References:#
+
+[.underline]#Valid Examples for Model References#:
 
 [example]
 ....
@@ -87,4 +88,4 @@ The examples in this document therefore do not use this prefix.
 
 In the last example the xref:spec-metamodel/common.adoc#HasSemantics[semanticId] of the property with idShort "Temperature" is expected to be "0173-1#02-BAA120#008", the xref:spec-metamodel/referencing.adoc#Reference[referredSemanticId].
 
-For further examples including invalid examples please see xref:spec-metamodel/referencing.adoc#constraints[Constraints for Referencing in Asset Administration Shells].
+For further examples including invalid examples please see xref:spec-metamodel/referencing.adoc#examples-for-references[Constraints for Referencing in Asset Administration Shells].
