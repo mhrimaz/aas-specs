@@ -53,12 +53,7 @@ at [schemas/rdf/](schemas/rdf/).
 
 The XML schema, mapping rules and examples are available 
 at [schemas/xml/](schemas/xml/).
-
-### XMI
-
-The XMI file for the UML metamodel is available 
-at [schemas/xmi/](schemas/xmi/).
-  
+ 
 ## Releases
 
 The following versioning scheme is applied: 'V\<major>.\<minor>.\<patch>'. 
