@@ -2,7 +2,7 @@
   "assetAdministrationShells": [
     {
       "assetInformation": {
-        "assetKind": "NotApplicable",
+        "assetKind": "Role",
         "specificAssetIds": [
           {
             "externalSubjectId": {

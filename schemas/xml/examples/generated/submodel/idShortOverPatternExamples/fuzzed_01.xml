@@ -1,4 +1,4 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<submodels>
 		<submodel>
 			<extensions>
@@ -7,7 +7,7 @@
 				</extension>
 			</extensions>
 			<category>something_91042c92</category>
-			<idShort>Z0</idShort>
+			<idShort>fULCVpULCVq</idShort>
 			<displayName>
 				<langStringNameType>
 					<language>sl-IT-nedis</language>
@@ -51,15 +51,6 @@
 			</qualifiers>
 			<embeddedDataSpecifications>
 				<embeddedDataSpecification>
-					<dataSpecification>
-						<type>ExternalReference</type>
-						<keys>
-							<key>
-								<type>GlobalReference</type>
-								<value>urn:some-company07:80412e8f</value>
-							</key>
-						</keys>
-					</dataSpecification>
 					<dataSpecificationContent>
 						<dataSpecificationIec61360>
 							<preferredName>
@@ -75,29 +66,20 @@
 							<value>something_db2f0b6e</value>
 						</dataSpecificationIec61360>
 					</dataSpecificationContent>
+					<dataSpecification>
+						<type>ExternalReference</type>
+						<keys>
+							<key>
+								<type>GlobalReference</type>
+								<value>urn:some-company07:80412e8f</value>
+							</key>
+						</keys>
+					</dataSpecification>
 				</embeddedDataSpecification>
 			</embeddedDataSpecifications>
 			<submodelElements>
 				<annotatedRelationshipElement>
 					<idShort>something3fdd3eb4</idShort>
-					<first>
-						<type>ModelReference</type>
-						<keys>
-							<key>
-								<type>Submodel</type>
-								<value>urn:another-company01:f390f801</value>
-							</key>
-						</keys>
-					</first>
-					<second>
-						<type>ModelReference</type>
-						<keys>
-							<key>
-								<type>AssetAdministrationShell</type>
-								<value>something_0e4b0931</value>
-							</key>
-						</keys>
-					</second>
 				</annotatedRelationshipElement>
 			</submodelElements>
 		</submodel>

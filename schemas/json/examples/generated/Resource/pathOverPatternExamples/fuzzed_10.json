@@ -1,0 +1,16 @@
+{
+  "assetAdministrationShells": [
+    {
+      "assetInformation": {
+        "assetKind": "Role",
+        "defaultThumbnail": {
+          "contentType": "application/x-abiword",
+          "path": "#%59T=%e1&&%b4%53EYU?,/q%87%c6He"
+        },
+        "globalAssetId": "something_eea66fa1"
+      },
+      "id": "something_142922d6",
+      "modelType": "AssetAdministrationShell"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+@startuml
+
+abstract class Class1 <<abstract>>
+@enduml

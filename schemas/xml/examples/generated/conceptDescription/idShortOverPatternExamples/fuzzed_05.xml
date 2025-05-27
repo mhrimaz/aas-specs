@@ -1,4 +1,4 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<conceptDescriptions>
 		<conceptDescription>
 			<extensions>
@@ -7,7 +7,7 @@
 				</extension>
 			</extensions>
 			<category>something_07a45fb3</category>
-			<idShort>l5</idShort>
+			<idShort>t8x1pz9WS4TGV</idShort>
 			<displayName>
 				<langStringNameType>
 					<language>zh-Hant</language>
@@ -24,15 +24,6 @@
 			<id>something_8ccad77f</id>
 			<embeddedDataSpecifications>
 				<embeddedDataSpecification>
-					<dataSpecification>
-						<type>ModelReference</type>
-						<keys>
-							<key>
-								<type>Submodel</type>
-								<value>urn:example14:c4971d26</value>
-							</key>
-						</keys>
-					</dataSpecification>
 					<dataSpecificationContent>
 						<dataSpecificationIec61360>
 							<preferredName>
@@ -48,6 +39,15 @@
 							<value>something_a864dcb4</value>
 						</dataSpecificationIec61360>
 					</dataSpecificationContent>
+					<dataSpecification>
+						<type>ModelReference</type>
+						<keys>
+							<key>
+								<type>Submodel</type>
+								<value>urn:example14:c4971d26</value>
+							</key>
+						</keys>
+					</dataSpecification>
 				</embeddedDataSpecification>
 			</embeddedDataSpecifications>
 			<isCaseOf>

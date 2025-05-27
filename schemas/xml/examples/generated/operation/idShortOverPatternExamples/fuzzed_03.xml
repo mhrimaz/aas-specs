@@ -1,4 +1,4 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<submodels>
 		<submodel>
 			<id>something_48c66017</id>
@@ -10,7 +10,7 @@
 						</extension>
 					</extensions>
 					<category>something_d7cf2dff</category>
-					<idShort>uI</idShort>
+					<idShort>Jk0k1414Di</idShort>
 					<displayName>
 						<langStringNameType>
 							<language>zh-CN-a-myext-x-private</language>
@@ -51,15 +51,6 @@
 					</qualifiers>
 					<embeddedDataSpecifications>
 						<embeddedDataSpecification>
-							<dataSpecification>
-								<type>ModelReference</type>
-								<keys>
-									<key>
-										<type>Submodel</type>
-										<value>urn:another-company15:2bd0986b</value>
-									</key>
-								</keys>
-							</dataSpecification>
 							<dataSpecificationContent>
 								<dataSpecificationIec61360>
 									<preferredName>
@@ -75,6 +66,15 @@
 									<value>something_4e9c19b7</value>
 								</dataSpecificationIec61360>
 							</dataSpecificationContent>
+							<dataSpecification>
+								<type>ModelReference</type>
+								<keys>
+									<key>
+										<type>Submodel</type>
+										<value>urn:another-company15:2bd0986b</value>
+									</key>
+								</keys>
+							</dataSpecification>
 						</embeddedDataSpecification>
 					</embeddedDataSpecifications>
 					<inputVariables>
@@ -82,8 +82,6 @@
 							<value>
 								<entity>
 									<idShort>something_c8b0a9a0</idShort>
-									<entityType>SelfManagedEntity</entityType>
-									<globalAssetId>urn:an-example03:cc3a7d47</globalAssetId>
 								</entity>
 							</value>
 						</operationVariable>
@@ -93,24 +91,6 @@
 							<value>
 								<annotatedRelationshipElement>
 									<idShort>something_0921a907</idShort>
-									<first>
-										<type>ModelReference</type>
-										<keys>
-											<key>
-												<type>Submodel</type>
-												<value>urn:another-example04:27451000</value>
-											</key>
-										</keys>
-									</first>
-									<second>
-										<type>ModelReference</type>
-										<keys>
-											<key>
-												<type>Submodel</type>
-												<value>urn:example03:74d93fcf</value>
-											</key>
-										</keys>
-									</second>
 								</annotatedRelationshipElement>
 							</value>
 						</operationVariable>

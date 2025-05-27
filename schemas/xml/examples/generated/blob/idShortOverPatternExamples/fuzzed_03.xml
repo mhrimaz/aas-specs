@@ -1,4 +1,4 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<submodels>
 		<submodel>
 			<id>something_48c66017</id>
@@ -9,8 +9,8 @@
 							<name>something_aa1af8b3</name>
 						</extension>
 					</extensions>
-					<category>VARIABLE</category>
-					<idShort>uI</idShort>
+					<category>something_d7cf2dff</category>
+					<idShort>Jk0k1414Di</idShort>
 					<displayName>
 						<langStringNameType>
 							<language>zh-CN-a-myext-x-private</language>
@@ -51,15 +51,6 @@
 					</qualifiers>
 					<embeddedDataSpecifications>
 						<embeddedDataSpecification>
-							<dataSpecification>
-								<type>ModelReference</type>
-								<keys>
-									<key>
-										<type>Submodel</type>
-										<value>urn:another-company15:2bd0986b</value>
-									</key>
-								</keys>
-							</dataSpecification>
 							<dataSpecificationContent>
 								<dataSpecificationIec61360>
 									<preferredName>
@@ -75,6 +66,15 @@
 									<value>something_4e9c19b7</value>
 								</dataSpecificationIec61360>
 							</dataSpecificationContent>
+							<dataSpecification>
+								<type>ModelReference</type>
+								<keys>
+									<key>
+										<type>Submodel</type>
+										<value>urn:another-company15:2bd0986b</value>
+									</key>
+								</keys>
+							</dataSpecification>
 						</embeddedDataSpecification>
 					</embeddedDataSpecifications>
 					<value>FYFZv/O3Z+zHt1M=</value>

@@ -5,7 +5,7 @@
       "modelType": "Submodel",
       "submodelElements": [
         {
-          "category": "VARIABLE",
+          "category": "something_d7cf2dff",
           "contentType": "7/6qwqh6g",
           "description": [
             {
@@ -51,7 +51,7 @@
               "name": "something_aa1af8b3"
             }
           ],
-          "idShort": "PiXO1wyHierj",
+          "idShort": "nRdRe",
           "modelType": "File",
           "qualifiers": [
             {
@@ -79,7 +79,7 @@
               "type": "ModelReference"
             }
           ],
-          "value": "something_158159bf"
+          "value": "http://www.example.org"
         }
       ]
     }

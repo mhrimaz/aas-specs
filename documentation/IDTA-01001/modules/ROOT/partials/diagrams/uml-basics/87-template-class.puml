@@ -1,0 +1,5 @@
+@startuml
+
+
+object Class1 <<Template>>
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+enum AasContainerSubmodelElements <<enumeration>> {
+  AnnotatedRelationshipElement
+  Entity
+  SubmodelElementCollection
+  SubmodelElementList
+}
+@enduml

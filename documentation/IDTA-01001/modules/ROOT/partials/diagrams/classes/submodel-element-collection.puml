@@ -1,0 +1,5 @@
+@startuml
+class SubmodelElementCollection {
+  +value: SubmodelElement[0..*]
+}
+@enduml
