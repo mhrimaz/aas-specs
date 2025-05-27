@@ -31,8 +31,8 @@ The specification number is: **IDTA-01001**
 
 ## Schemas
 
-The schemas of the Asset Administration Shell for JSON, RDF and XML as well 
-as a YAML representation of the metmodel are provided in the 
+The schemas of the Asset Administration Shell for JSON, RDF and XML 
+as representation of the metamodel are provided in the 
 respective directories. 
 These schemas are derived from the document series, part 1,
 ["Specification Asset Administration Shell"](
