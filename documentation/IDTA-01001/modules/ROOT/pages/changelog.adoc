@@ -42,7 +42,7 @@ Bugfixes:
 * CHANGED: fix xml schema w.r.t. ordering of attributes
 
 
-Major Changes:
+
 
 == Changes V3.1 vs. V3.0.2
 
