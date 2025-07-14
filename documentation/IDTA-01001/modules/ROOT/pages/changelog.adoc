@@ -35,6 +35,14 @@ Note: before V3.0, the security metamodel (now IDTA-01004) and the predefined da
 They had separate sections and tables documenting the changes.
 ====
 
+== Changes V3.1.1 vs. V3.1
+
+Bugfixes:
+
+* CHANGED: fix xml schema w.r.t. ordering of attributes
+
+
+Major Changes:
 
 == Changes V3.1 vs. V3.0.2
 
