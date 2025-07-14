@@ -360,7 +360,7 @@ For a _SubmodelElementCollection_ named "ProductClassification" or being part of
 }
 ----
 
-For a _SubmodelElementList_ named "Authors" with string Properties as its value, the Value-Only payload is minimized to the following (values within a SubmodelElementList do not have idShort values)footnote:[The Value-Only serialization of the product classification example can be seen above]:
+For a _SubmodelElementList_ named "Authors" with string Properties as its value, the Value-Only payload is minimized to the following (idShort of values within a SubmodelElementList are ignored):footnote:[The Value-Only serialization of the product classification example can be seen above]:
 
 [source,json,linenums]
 ----
