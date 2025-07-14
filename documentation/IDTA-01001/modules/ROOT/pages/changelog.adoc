@@ -39,7 +39,7 @@ They had separate sections and tables documenting the changes.
 
 Bugfixes:
 
-* CHANGED: fix xml schema w.r.t. ordering of attributes
+* CHANGED: fix xml schema w.r.t. ordering of attributes (https://github.com/admin-shell-io/aas-specs-metamodel/issues/585[#585])
 
 
 
