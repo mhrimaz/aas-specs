@@ -1,0 +1,5 @@
+@startuml
+
+class Class1 <<Deprecated>>
+
+@enduml

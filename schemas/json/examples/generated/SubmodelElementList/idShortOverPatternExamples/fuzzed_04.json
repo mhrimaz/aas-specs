@@ -50,7 +50,7 @@
               "name": "something_aa1af8b3"
             }
           ],
-          "idShort": "Yf5",
+          "idShort": "pVz10Vz10vZZNO9hM",
           "modelType": "SubmodelElementList",
           "orderRelevant": true,
           "qualifiers": [
@@ -91,8 +91,6 @@
           "typeValueListElement": "Entity",
           "value": [
             {
-              "entityType": "SelfManagedEntity",
-              "globalAssetId": "urn:something08:238de418",
               "modelType": "Entity"
             }
           ],

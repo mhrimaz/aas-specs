@@ -2,10 +2,10 @@
   "assetAdministrationShells": [
     {
       "assetInformation": {
-        "assetKind": "NotApplicable",
+        "assetKind": "Role",
         "assetType": "something_9f4c5692",
         "defaultThumbnail": {
-          "path": "something_57b1bd09"
+          "path": "mailto:John.Doe@example.org"
         },
         "globalAssetId": "something_c71f0c8f"
       },

@@ -2,7 +2,7 @@
   "assetAdministrationShells": [
     {
       "assetInformation": {
-        "assetKind": "NotApplicable",
+        "assetKind": "Role",
         "globalAssetId": "something_eea66fa1"
       },
       "embeddedDataSpecifications": [
@@ -31,16 +31,7 @@
             "valueList": {
               "valueReferencePairs": [
                 {
-                  "value": "something_59dafa79",
-                  "valueId": {
-                    "keys": [
-                      {
-                        "type": "Submodel",
-                        "value": "urn:yet-another-company15:6b346267"
-                      }
-                    ],
-                    "type": "ModelReference"
-                  }
+                  "value": "something_59dafa79"
                 }
               ]
             }

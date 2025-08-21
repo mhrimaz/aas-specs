@@ -1,0 +1,50 @@
+////
+Copyright (c) 2023 Industrial Digital Twin Association
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](
+https://creativecommons.org/licenses/by/4.0/).
+
+SPDX-License-Identifier: CC-BY-4.0
+
+////
+
+[[part1-introduction]]
+= Introduction
+
+This document specifies the metamodel of the Asset Administration Shell.
+
+The general concept and the structure of the Asset Administration Shell is described in IEC 63278-1 (see <<image-iec63278-1-overview>>).
+
+.Asset Administration Shell and its Stakeholders (Source: IEC 63278-1)
+[[image-iec63278-1-overview]]
+image::2-iec63278-1-overview.png[]
+
+These are the main specifics and stakeholders defined for the Asset Administration Shell:
+
+* an Asset Administration Shell is associated to an asset;
+* an Asset Administration Shell provides AAS interface(s);
+* there are one or more Submodels listed in an Asset Administration Shell;
+* an AAS responsible has an interest in an asset, and based on this interest creates and governs an Asset Administration Shell;
+* an AAS user application accesses an Asset Administration Shell via its AAS interface(s) for use by humans or for automated processing;
+* a Submodel template may serve as guidance for a Submodel.
+* Submodels reference concept repositories;
+* a Submodel template may be used to serve as guidance for a Submodel and references concept repositories;
+* asset can provide asset services;
+* Submodels may reference asset services via an asset integration and may also reference
+asset related services.
+
+This document specifies a technology-neutral specification of the information metamodel of the Asset Administration Shell in UML.
+It serves as the basis for deriving several different formats for exchanging Asset Administration Shells, e.g. for XML, JSON, and RDF.
+
+<<image-aas-info-exchange-types>> shows the different ways of exchanging information Asset Administration Shells.
+This part of the "Specifications of the Asset Administration Shell" series is the basis for all of these types of information exchange.
+
+.Types of Information Exchange via Asset Administration Shells
+[[image-aas-info-exchange-types]]
+image::3-aas-info-exchange-types.jpg[]
+
+File exchange (1) is described in detail in Part 5 of this document series.
+
+The API (2) based on the information metamodel specified in this document is specified in Part 2 of the document series "Specification of the Asset Administration Shell" (IDTA-01002) xref:bibliography.adoc#bib37[[37\]].
+
+The I4.0 language (3) is based on the information metamodel specified in this document xref:bibliography.adoc#bib47[[47\]].

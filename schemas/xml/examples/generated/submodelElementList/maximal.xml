@@ -1,4 +1,4 @@
-<environment xmlns="https://admin-shell.io/aas/3/0">
+<environment xmlns="https://admin-shell.io/aas/3/1">
 	<submodels>
 		<submodel>
 			<id>something_48c66017</id>
@@ -10,7 +10,7 @@
 						</extension>
 					</extensions>
 					<category>something_d7cf2dff</category>
-					<idShort>PiXO1wyHierj</idShort>
+					<idShort>nRdRe</idShort>
 					<displayName>
 						<langStringNameType>
 							<language>zh-CN-a-myext-x-private</language>
@@ -90,10 +90,7 @@
 					<typeValueListElement>Entity</typeValueListElement>
 					<valueTypeListElement>xs:byte</valueTypeListElement>
 					<value>
-						<entity>
-							<entityType>SelfManagedEntity</entityType>
-							<globalAssetId>urn:something08:238de418</globalAssetId>
-						</entity>
+						<entity/>
 					</value>
 				</submodelElementList>
 			</submodelElements>
