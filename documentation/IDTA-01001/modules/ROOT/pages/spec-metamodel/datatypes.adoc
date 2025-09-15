@@ -19,6 +19,10 @@ Their definition is outside the scope of this document.
 The meaning and format of xsd types is specified in XML Schema 1.0 (https://www.w3.org/TR/xmlschema-2).
 The simple type "langString" is specified in the Resource Description Framework (RDF) footnote:[see: https://www.w3.org/TR/rdf11-concepts/].
 
+====
+Note: Numeric data types in XML Schema are based on the definitions of IEEE 754 with slight adoptions. For instance, float and double types use different exponent ranges. In any case, solely the XMl Schema data type definitions are applicable for AAS values.
+====
+
 See  xref:spec-metamodel/constraints.adoc#constraints-for-types[Constraints for Types] for constraints on types.
 
 .Simple Data Types Used in Metamodel
