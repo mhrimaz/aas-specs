@@ -35,6 +35,18 @@ Note: before V3.0, the security metamodel (now IDTA-01004) and the predefined da
 They had separate sections and tables documenting the changes.
 ====
 
+
+
+
+== Changes V3.1.2 vs. V3.1.1
+
+Minor:
+
+* NEW: add new note for XML Schema data types compared to IEEE 754 definitions (https://github.com/admin-shell-io/aas-specs-metamodel/issues/620[#620])
+
+
+
+
 == Changes V3.1.1 vs. V3.1
 
 Bugfixes:
