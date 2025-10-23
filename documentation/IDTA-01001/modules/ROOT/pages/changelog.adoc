@@ -40,6 +40,10 @@ They had separate sections and tables documenting the changes.
 Bugfixes:
 
 * CHANGED: fix AASd-021 (there was no change compared to V3.0, schemas not affected)  https://github.com/admin-shell-io/aas-specs-metamodel/issues/624[#624])
+* CHANGED: fix diagram for DataSpecificationContent: add stereotype "Template"
+* CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Blob` for `Blob` within  `AasNonContainerSubmodelElements` to `\https://admin-shell.io/aas/3/1/AasNonContainerSubmodelElements/Blob`
+* Reference: remove recommendation to use an external reference for the referredSemanticId
+* editorial fixes
 
 
 == Changes V3.1.1 vs. V3.1
