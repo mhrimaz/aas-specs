@@ -35,6 +35,13 @@ Note: before V3.0, the security metamodel (now IDTA-01004) and the predefined da
 They had separate sections and tables documenting the changes.
 ====
 
+== Changes V3.1.2 vs. V3.1.1
+
+Bugfixes:
+
+* CHANGED: fix AASd-021 (there was no change compared to V3.0)  https://github.com/admin-shell-io/aas-specs-metamodel/issues/624[#624])
+
+
 == Changes V3.1.1 vs. V3.1
 
 Bugfixes:
