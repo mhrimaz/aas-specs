@@ -530,7 +530,7 @@ h|Explanation
 .2+e|BasicEventElement | `\https://admin-shell.io/aas/3/1/AasNonContainerSubmodelElements/BasicEventElement`
 a|Basic event element
 
-.2+e|Blob | `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Blob`
+.2+e|Blob | `\https://admin-shell.io/aas/3/1/AasNonContainerSubmodelElements/Blob`
 a|Blob
 
 .2+e|Capability | `\https://admin-shell.io/aas/3/1/AasNonContainerSubmodelElements/Capability`
