@@ -45,6 +45,8 @@ Bugfixes:
 * CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/Extension` to `\https://admin-shell.io/aas/3/1/Extension\name` for attribute name in class Extension
 * Reference: remove recommendation to use an external reference for the referredSemanticId
 * CHANGED: DIN SPEC 92000 is a DIN DKE SPEC, reference corrected
+* CHANGED: bibliography, fix or remove non-working links
+* CHANGED: updated references to Submodel Templates Technical Data and Digital Nameplate
 * editorial fixes
 
 
