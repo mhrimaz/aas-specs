@@ -221,8 +221,7 @@ See xref:bibliography.adoc#bib45[[45\]].
 ////
 ////
 [#bib41]
-[41] Joint Working Group of the https://opcfoundation.org/[OPC Foundation] and https://industrialdigitaltwin.org/[IDTA]  
-https://profiles.opcfoundation.org/workinggroup/40[Industry 4.0 Asset Administration Shell - AAS (I4AAS)] 
+[41] Joint Working Group of the link:https://opcfoundation.org/[OPC Foundation] and https://industrialdigitaltwin.org/[IDTA] link:https://profiles.opcfoundation.org/workinggroup/40[Industry 4.0 Asset Administration Shell - AAS (I4AAS)] 
 ////
 ////
 [#bib42]
