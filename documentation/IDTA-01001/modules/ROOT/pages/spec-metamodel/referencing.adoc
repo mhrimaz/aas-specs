@@ -537,7 +537,7 @@ a|Capability
 
 .2+e|DataElement | `\https://admin-shell.io/aas/3/1/AasNonContainerSubmodelElements/DataElement`
 a|
-Data Element
+Data element
 
 
 ====
