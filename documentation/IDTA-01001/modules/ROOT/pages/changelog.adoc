@@ -43,6 +43,7 @@ Bugfixes:
 * CHANGED: make example for idShortPath consistent to (https://github.com/admin-shell-io/aas-specs-metamodel/issues/618[#618])
 * CHANGED: fix diagram for DataSpecificationContent: add stereotype "Template"
 * CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Operation` for `Operation` within `AasReferableNonIdentifiables` to `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/Operation`
+* CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AAasReferableNonIdentifiables/SubmodelElement` to `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/SubmodelElement`
 * CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Blob` for `Blob` within  `AasNonContainerSubmodelElements` to `\https://admin-shell.io/aas/3/1/AasNonContainerSubmodelElements/Blob`
 * CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/Extension` to `\https://admin-shell.io/aas/3/1/Extension/name` for attribute name in class Extension
 * Reference: remove recommendation to use an external reference for the referredSemanticId
