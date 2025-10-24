@@ -466,7 +466,7 @@ a|File
 .2+e|MultiLanguageProperty | `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/MultiLanguageProperty`
 a|Property with a value that can be provided in multiple languages
 
-.2+e|Operation| `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Operation`
+.2+e|Operation| `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/Operation`
 a|Operation
 
 .2+e|Property | `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/Property`
