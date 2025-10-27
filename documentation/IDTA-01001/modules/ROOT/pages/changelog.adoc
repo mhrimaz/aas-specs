@@ -43,7 +43,7 @@ Bugfixes:
 * CHANGED: make example for idShortPath consistent to (https://github.com/admin-shell-io/aas-specs-metamodel/issues/618[#618])
 * CHANGED: fix diagram for DataSpecificationContent: add stereotype "Template"
 * CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Operation` for `Operation` within `AasReferableNonIdentifiables` to `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/Operation`
-* CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AAasReferableNonIdentifiables/SubmodelElement` to `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/SubmodelElement`
+* CHANGED: fix syntax error in semantic metamodel ID `\https://admin-shell.io/aas/3/1/AAasReferableNonIdentifiables/SubmodelElement` to `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/SubmodelElement`
 * CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Blob` for `Blob` within  `AasNonContainerSubmodelElements` to `\https://admin-shell.io/aas/3/1/AasNonContainerSubmodelElements/Blob`
 * CHANGED: fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/Extension` to `\https://admin-shell.io/aas/3/1/Extension/name` for attribute name in class Extension
 * Reference: remove recommendation to use an external reference for the referredSemanticId
@@ -53,6 +53,20 @@ Bugfixes:
 * CHANGED: updated references to Submodel Templates Technical Data and Digital Nameplate
 * editorial fixes
 
+.Changes in Metamodel
+[cols="5%,42%,48%",options="header",]
+|===
+|*Nc* |*V3.1 Change w.r.t. V3.0.2* |*Comment*
+
+| {empty} | AasReferableNonIdentifiables/Operation a| fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Operation` for `Operation` within `AasReferableNonIdentifiables` to `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/Operation`
+
+| {empty} | AasReferableNonIdentifiables/SubmodelElement a| fix syntax error in semantic metamodel ID `\https://admin-shell.io/aas/3/1/AAasReferableNonIdentifiables/SubmodelElement` to `\https://admin-shell.io/aas/3/1/AasReferableNonIdentifiables/SubmodelElement`
+
+| {empty} | AasNonContainerSubmodelElements/Blob a| fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/AasSubmodelElements/Blob` for `Blob` within  `AasNonContainerSubmodelElements` to `\https://admin-shell.io/aas/3/1/AasNonContainerSubmodelElements/Blob`
+
+| {empty} | Extension/name a| fix semantic metamodel ID `\https://admin-shell.io/aas/3/1/Extension` to `\https://admin-shell.io/aas/3/1/Extension/name` for attribute name in class Extension`
+
+|===
 
 .New, Changed or Removed Constraints
 [cols="5%,10%,15%,69%",options="header",]
@@ -64,7 +78,7 @@ Bugfixes:
 
 Constraint AASd-021: Every qualifiable can only have one qualifier with the same Qualifier/valueType.
 
-changed to
+corrected to
 
 Constraint AASd-021: Every qualifiable shall only have one qualifier with the same Qualifier/type.
 
