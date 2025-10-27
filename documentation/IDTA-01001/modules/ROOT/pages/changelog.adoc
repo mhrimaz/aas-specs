@@ -54,6 +54,22 @@ Bugfixes:
 * editorial fixes
 
 
+.New, Changed or Removed Constraints
+[cols="5%,10%,15%,69%",options="header",]
+|===
+|*Nc* |*V3.1 vs. V3.0* |*New, Update, Removed, Reformulated* |*Comment*
+
+
+|{empty}  | AASd-021| Correct a|
+
+Constraint AASd-021: Every qualifiable can only have one qualifier with the same Qualifier/valueType.
+
+changed to
+
+Constraint AASd-021: Every qualifiable shall only have one qualifier with the same Qualifier/type.
+
+|===
+
 == Changes V3.1.1 vs. V3.1
 
 Bugfixes:
@@ -225,6 +241,7 @@ use "shall" instead of "can"
 Constraint AASd-021: Every qualifiable can only have one qualifier with the same Qualifier/valueType.
 
 changed to
+
 Constraint AASd-021: Every qualifiable shall only have one qualifier with the same Qualifier/valueType.
 
 |{empty}  |AASd-077 |Update a|
