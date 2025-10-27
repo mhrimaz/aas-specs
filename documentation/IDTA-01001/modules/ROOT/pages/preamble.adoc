@@ -48,7 +48,7 @@ xref:spec-metamodel/index.adoc[] is the main normative part of the document.
 It stipulates structural principles of the Administration Shell in a formal manner to ensure an exchange of information using Asset Administration Shells.
 A UML diagram has been defined for this purpose.
 
-xref:data-specifications.adoc[] explains how to define predefined data specifications, including those for defining concept descriptions. A discussion on the difference of data specification templates, inheritance, qualifiers and categories can be found in the xref:annex/uml.adoc[]#templates-inheritance-qualifiers-and-categories[Annex]. 
+xref:data-specifications.adoc[] explains how to define predefined data specifications, including those for defining concept descriptions. A discussion on the difference of data specification templates, inheritance, qualifiers and categories can be found in the xref:annex/uml.adoc#templates-inheritance-qualifiers-and-categories[Annex]. 
 
 xref:mappings/mappings.adoc[] provides information on the exchange of information compliant to this specification in existing data formats like XML, JSON, or RDF.
 For this purpose additional formats are defined as well as needed text serializations of complex types.
