@@ -64,7 +64,8 @@ Annex xref:annex/uml.adoc[] contains information about UML, while Annex xef:anne
 
 Annex xref:annex/grammar-semantic-ids-metamodel.adoc[] explains how semantic identifiers for the elements of the metamodel itself are derived.
 
-xref:annex/handling-constraints.adoc[] explains the numbering of constraints used in the specification.
+xref:annex/handling-constraints.adoc[] explains the numbering of constraints used in the specification. 
+An overview of all constraints contained in the specification can be found in xref:annex/overview-constraints.adoc[].
 
 Annex xref:annex/usage-metamodel.adoc[] provides some hints for modelers.
 Annex xref:annex/metamodel-with-inheritance.adoc[] shows selected metamodel diagrams including all inherited attributes for developers.
