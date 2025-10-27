@@ -65,11 +65,12 @@ If an AAS contains two different Submodels guided by the same Submodel Template 
 In this case both Submodels shall have a templateId assigned to them (xref:spec-metamodel/common.adoc#templateId[Submodel/administration/templateId]).
 
 ====
-Note 3: In some cases there is neither a semanticId (xref:spec-metamodel/common.adoc#semanticId[Submodel/semanticId]) nor a template ID (xref:spec-metamodel/common.adoc#templateId[Submodel/administration/templateId]) defined for the Submodel. In this case there is no way for the data consumer to formally see whether two Submodels are providing the same semantic information.
+Note 3: in some cases there is neither a semanticId (xref:spec-metamodel/common.adoc#semanticId[Submodel/semanticId]) nor a template ID (xref:spec-metamodel/common.adoc#templateId[Submodel/administration/templateId]) defined for the Submodel. 
+In this case there is no way for the data consumer to formally see whether two Submodels are providing the same semantic information.
 ====
 
 ====
-Note 4: If a template ID of one of the standardized Submodel Templates of the IDTA is used to guide the creation of a Submodel then there is also a semantic ID defined for the Submodel.
+Note 4: if a template ID of one of the standardized Submodel Templates of the IDTA is used to guide the creation of a Submodel then there is also a semantic ID defined for the Submodel.
 ====
 
 
@@ -331,7 +332,7 @@ Identifier of the semantic definition of the element called semantic ID or also 
 
 |xref:spec-metamodel/referencing.adoc#Reference[Reference] |0..1
 
-.2+e|supplementalSemanticId 3+| `\https://admin-shell.io/aas/3/1/HasSemantics/supplementalId`
+.2+e|supplementalSemanticId 3+| `\https://admin-shell.io/aas/3/1/HasSemantics/supplementalSemanticId`
 a|
 Identifier of a supplemental semantic definition of the element called supplemental semantic ID of the element
 
