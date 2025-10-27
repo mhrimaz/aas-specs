@@ -76,7 +76,7 @@ Note: see  xref:spec-metamodel/constraints.adoc#constraints-for-types[Constraint
 .2+h|Primitive 2+h| ID
 h|Definition h|Value Examples
 
-.2+e|[[BlobType]]BlobType 2+| `\https://admin-shell.io/aas/3/0/BlobType`
+.2+e|[[BlobType]]BlobType 2+| `\https://admin-shell.io/aas/3/1/BlobType`
 a|
 _base64binary_
 
