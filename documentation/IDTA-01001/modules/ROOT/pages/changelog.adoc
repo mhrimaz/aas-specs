@@ -52,6 +52,7 @@ Bugfixes:
 * CHANGED: DIN SPEC 92000 is a DIN DKE SPEC, reference corrected
 * CHANGED: bibliography, fix or remove non-working links
 * CHANGED: updated references to Submodel Templates Technical Data and Digital Nameplate
+* CHANGED: preamble, review process as defined in IDTA
 * editorial fixes
 
 .Changes in Metamodel
