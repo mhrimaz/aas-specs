@@ -33,7 +33,7 @@ include::partial$diagrams/48-reference.puml[]
 ....
 
 
-See  xref:annex/general.adoc#matching-algorithm-for-references[Matching Algorithm for References] for reference matching.
+See Annex  xref:annex/general.adoc#matching-algorithm-for-references[Matching Algorithm for References] for reference matching.
 
 [.table-with-appendix-table]
 [cols="25%,40%,25%,10%"]
