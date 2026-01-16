@@ -1,33 +1,30 @@
-@prefix aas: <https://admin-shell.io/aas/3/1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+# IRI of entities are not normative and can be modified according to your needs.
+@prefix aas-3: <https://admin-shell.io/aas/3/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://example.com/some-submodel> rdf:type aas:Submodel ;
-    <https://admin-shell.io/aas/3/1/Referable/idShort> "someSubmodel"^^xs:string ;
-    <https://admin-shell.io/aas/3/1/Identifiable/id> "https://example.com/some-submodel"^^xs:string ;
-    <https://admin-shell.io/aas/3/1/Submodel/submodelElements> [
-        rdf:type aas:ReferenceElement ;
-        <https://admin-shell.io/aas/3/1/Referable/idShort> "someElement"^^xs:string ;
-        <https://admin-shell.io/aas/3/1/ReferenceElement/value> [
-            rdf:type aas:Reference ;
-            <https://admin-shell.io/aas/3/1/Reference/type> <https://admin-shell.io/aas/3/1/ReferenceTypes/ModelReference> ;
-            <https://admin-shell.io/aas/3/1/Reference/keys> [
-                rdf:type aas:Key ;
-                <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/Submodel> ;
-                <https://admin-shell.io/aas/3/1/Key/value> "https://example.com/something"^^xs:string ;
-            ] ;
-            <https://admin-shell.io/aas/3/1/Reference/keys> [
-                rdf:type aas:Key ;
-                <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/Blob> ;
-                <https://admin-shell.io/aas/3/1/Key/value> "something_more"^^xs:string ;
-            ] ;
-            <https://admin-shell.io/aas/3/1/Reference/keys> [
-                rdf:type aas:Key ;
-                <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/FragmentReference> ;
-                <https://admin-shell.io/aas/3/1/Key/value> "yet_something_more"^^xs:string ;
-            ] ;
-        ] ;
-    ] ;
-.
+<https://example.com/some-submodel> a aas-3:Submodel ;
+    aas-3:id "https://example.com/some-submodel" ;
+    aas-3:idShort "someSubmodel" ;
+    aas-3:submodelElements <https://example.com/some-submodel/someElement> .
+
+<https://example.com/some-submodel/someElement> a aas-3:ReferenceElement ;
+    aas-3:idShort "someElement" ;
+    aas-3:index 0 ;
+    aas-3:value [ a aas-3:Reference ;
+            aas-3:keys [ a aas-3:Key ;
+                    aas-3:index 0 ;
+                    aas-3:keyType aas-3:KeyTypes_Submodel ;
+                    aas-3:value "https://example.com/something" ],
+                [ a aas-3:Key ;
+                    aas-3:index 2 ;
+                    aas-3:keyType aas-3:KeyTypes_FragmentReference ;
+                    aas-3:value "yet_something_more" ],
+                [ a aas-3:Key ;
+                    aas-3:index 1 ;
+                    aas-3:keyType aas-3:KeyTypes_Blob ;
+                    aas-3:value "something_more" ] ;
+            aas-3:referenceType aas-3:ReferenceTypes_ModelReference ] .
+
+[] a aas-3:Environment ;
+    aas-3:submodel <https://example.com/some-submodel> .
+

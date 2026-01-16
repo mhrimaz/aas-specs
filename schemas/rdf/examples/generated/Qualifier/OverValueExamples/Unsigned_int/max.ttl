@@ -1,15 +1,15 @@
-@prefix aas: <https://admin-shell.io/aas/3/1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+# IRI of entities are not normative and can be modified according to your needs.
+@prefix aas-3: <https://admin-shell.io/aas/3/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<something_48c66017> rdf:type aas:Submodel ;
-    <https://admin-shell.io/aas/3/1/Identifiable/id> "something_48c66017"^^xs:string ;
-    <https://admin-shell.io/aas/3/1/Qualifiable/qualifiers> [
-        rdf:type aas:Qualifier ;
-        <https://admin-shell.io/aas/3/1/Qualifier/type> "something_5964ab43"^^xs:string ;
-        <https://admin-shell.io/aas/3/1/Qualifier/valueType> <https://admin-shell.io/aas/3/1/DataTypeDefXsd/UnsignedInt> ;
-        <https://admin-shell.io/aas/3/1/Qualifier/value> "4294967295"^^xs:string ;
-    ] ;
-.
+<something_48c66017> a aas-3:Submodel ;
+    aas-3:id "something_48c66017" ;
+    aas-3:qualifiers [ a aas-3:Qualifier ;
+            aas-3:index 0 ;
+            aas-3:qualifierType "something_5964ab43" ;
+            aas-3:value "4294967295" ;
+            aas-3:valueType xsd:unsignedInt ] .
+
+[] a aas-3:Environment ;
+    aas-3:submodel <something_48c66017> .
+

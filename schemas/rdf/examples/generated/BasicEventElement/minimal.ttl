@@ -1,24 +1,23 @@
-@prefix aas: <https://admin-shell.io/aas/3/1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+# IRI of entities are not normative and can be modified according to your needs.
+@prefix aas-3: <https://admin-shell.io/aas/3/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<something_48c66017> rdf:type aas:Submodel ;
-    <https://admin-shell.io/aas/3/1/Identifiable/id> "something_48c66017"^^xs:string ;
-    <https://admin-shell.io/aas/3/1/Submodel/submodelElements> [
-        rdf:type aas:BasicEventElement ;
-        <https://admin-shell.io/aas/3/1/Referable/idShort> "something3fdd3eb4"^^xs:string ;
-        <https://admin-shell.io/aas/3/1/BasicEventElement/observed> [
-            rdf:type aas:Reference ;
-            <https://admin-shell.io/aas/3/1/Reference/type> <https://admin-shell.io/aas/3/1/ReferenceTypes/ModelReference> ;
-            <https://admin-shell.io/aas/3/1/Reference/keys> [
-                rdf:type aas:Key ;
-                <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/Submodel> ;
-                <https://admin-shell.io/aas/3/1/Key/value> "urn:another-example11:3679ef43"^^xs:string ;
-            ] ;
-        ] ;
-        <https://admin-shell.io/aas/3/1/BasicEventElement/direction> <https://admin-shell.io/aas/3/1/Direction/Output> ;
-        <https://admin-shell.io/aas/3/1/BasicEventElement/state> <https://admin-shell.io/aas/3/1/StateOfEvent/Off> ;
-    ] ;
-.
+<something_48c66017> a aas-3:Submodel ;
+    aas-3:id "something_48c66017" ;
+    aas-3:submodelElements <something_48c66017/submodel-elements/something3fdd3eb4> .
+
+<something_48c66017/submodel-elements/something3fdd3eb4> a aas-3:BasicEventElement ;
+    aas-3:direction aas-3:Direction_Output ;
+    aas-3:idShort "something3fdd3eb4" ;
+    aas-3:index 0 ;
+    aas-3:observed [ a aas-3:Reference ;
+            aas-3:keys [ a aas-3:Key ;
+                    aas-3:index 0 ;
+                    aas-3:keyType aas-3:KeyTypes_Submodel ;
+                    aas-3:value "urn:another-example11:3679ef43" ] ;
+            aas-3:referenceType aas-3:ReferenceTypes_ModelReference ] ;
+    aas-3:state aas-3:StateOfEvent_Off .
+
+[] a aas-3:Environment ;
+    aas-3:submodel <something_48c66017> .
+
