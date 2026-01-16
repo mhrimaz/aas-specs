@@ -1,44 +1,36 @@
-@prefix aas: <https://admin-shell.io/aas/3/1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+# IRI of entities are not normative and can be modified according to your needs.
+@prefix aas-3: <https://admin-shell.io/aas/3/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<something_48c66017> rdf:type aas:Submodel ;
-    <https://admin-shell.io/aas/3/1/Identifiable/id> "something_48c66017"^^xs:string ;
-    <https://admin-shell.io/aas/3/1/HasKind/kind> <https://admin-shell.io/aas/3/1/ModellingKind/Template> ;
-    <https://admin-shell.io/aas/3/1/Qualifiable/qualifiers> [
-        rdf:type aas:Qualifier ;
-        <https://admin-shell.io/aas/3/1/HasSemantics/semanticId> [
-            rdf:type aas:Reference ;
-            <https://admin-shell.io/aas/3/1/Reference/type> <https://admin-shell.io/aas/3/1/ReferenceTypes/ModelReference> ;
-            <https://admin-shell.io/aas/3/1/Reference/keys> [
-                rdf:type aas:Key ;
-                <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/Submodel> ;
-                <https://admin-shell.io/aas/3/1/Key/value> "urn:example07:14a4e86f"^^xs:string ;
-            ] ;
-        ] ;
-        <https://admin-shell.io/aas/3/1/HasSemantics/supplementalSemanticIds> [
-            rdf:type aas:Reference ;
-            <https://admin-shell.io/aas/3/1/Reference/type> <https://admin-shell.io/aas/3/1/ReferenceTypes/ExternalReference> ;
-            <https://admin-shell.io/aas/3/1/Reference/keys> [
-                rdf:type aas:Key ;
-                <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/GlobalReference> ;
-                <https://admin-shell.io/aas/3/1/Key/value> "urn:an-example17:1456e435"^^xs:string ;
-            ] ;
-        ] ;
-        <https://admin-shell.io/aas/3/1/Qualifier/kind> <https://admin-shell.io/aas/3/1/QualifierKind/TemplateQualifier> ;
-        <https://admin-shell.io/aas/3/1/Qualifier/type> "something_5964ab43"^^xs:string ;
-        <https://admin-shell.io/aas/3/1/Qualifier/valueType> <https://admin-shell.io/aas/3/1/DataTypeDefXsd/Integer> ;
-        <https://admin-shell.io/aas/3/1/Qualifier/value> "001"^^xs:string ;
-        <https://admin-shell.io/aas/3/1/Qualifier/valueId> [
-            rdf:type aas:Reference ;
-            <https://admin-shell.io/aas/3/1/Reference/type> <https://admin-shell.io/aas/3/1/ReferenceTypes/ModelReference> ;
-            <https://admin-shell.io/aas/3/1/Reference/keys> [
-                rdf:type aas:Key ;
-                <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/Submodel> ;
-                <https://admin-shell.io/aas/3/1/Key/value> "urn:yet-another-company17:9dd54b75"^^xs:string ;
-            ] ;
-        ] ;
-    ] ;
-.
+<something_48c66017> a aas-3:Submodel ;
+    aas-3:id "something_48c66017" ;
+    aas-3:modelingKind aas-3:ModellingKind_Template ;
+    aas-3:qualifiers [ a aas-3:Qualifier ;
+            aas-3:index 0 ;
+            aas-3:qualifierKind aas-3:QualifierKind_TemplateQualifier ;
+            aas-3:qualifierType "something_5964ab43" ;
+            aas-3:semanticId [ a aas-3:Reference ;
+                    aas-3:keys [ a aas-3:Key ;
+                            aas-3:index 0 ;
+                            aas-3:keyType aas-3:KeyTypes_Submodel ;
+                            aas-3:value "urn:example07:14a4e86f" ] ;
+                    aas-3:referenceType aas-3:ReferenceTypes_ModelReference ] ;
+            aas-3:supplementalSemanticIds [ a aas-3:Reference ;
+                    aas-3:index 0 ;
+                    aas-3:keys [ a aas-3:Key ;
+                            aas-3:index 0 ;
+                            aas-3:keyType aas-3:KeyTypes_GlobalReference ;
+                            aas-3:value "urn:an-example17:1456e435" ] ;
+                    aas-3:referenceType aas-3:ReferenceTypes_ExternalReference ] ;
+            aas-3:value "001" ;
+            aas-3:valueId [ a aas-3:Reference ;
+                    aas-3:keys [ a aas-3:Key ;
+                            aas-3:index 0 ;
+                            aas-3:keyType aas-3:KeyTypes_Submodel ;
+                            aas-3:value "urn:yet-another-company17:9dd54b75" ] ;
+                    aas-3:referenceType aas-3:ReferenceTypes_ModelReference ] ;
+            aas-3:valueType xsd:integer ] .
+
+[] a aas-3:Environment ;
+    aas-3:submodel <something_48c66017> .
+

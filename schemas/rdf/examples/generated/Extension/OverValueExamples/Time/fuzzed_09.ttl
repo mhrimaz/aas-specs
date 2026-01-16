@@ -1,20 +1,18 @@
-@prefix aas: <https://admin-shell.io/aas/3/1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+# IRI of entities are not normative and can be modified according to your needs.
+@prefix aas-3: <https://admin-shell.io/aas/3/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<something_142922d6> rdf:type aas:AssetAdministrationShell ;
-    <https://admin-shell.io/aas/3/1/HasExtensions/extensions> [
-        rdf:type aas:Extension ;
-        <https://admin-shell.io/aas/3/1/Extension/name> "something_aae6caf4"^^xs:string ;
-        <https://admin-shell.io/aas/3/1/Extension/valueType> <https://admin-shell.io/aas/3/1/DataTypeDefXsd/Time> ;
-        <https://admin-shell.io/aas/3/1/Extension/value> "24:00:00-13:00"^^xs:string ;
-    ] ;
-    <https://admin-shell.io/aas/3/1/Identifiable/id> "something_142922d6"^^xs:string ;
-    <https://admin-shell.io/aas/3/1/AssetAdministrationShell/assetInformation> [
-        rdf:type aas:AssetInformation ;
-        <https://admin-shell.io/aas/3/1/AssetInformation/assetKind> <https://admin-shell.io/aas/3/1/AssetKind/Role> ;
-        <https://admin-shell.io/aas/3/1/AssetInformation/globalAssetId> "something_eea66fa1"^^xs:string ;
-    ] ;
-.
+<something_142922d6> a aas-3:AssetAdministrationShell ;
+    aas-3:assetInformation [ a aas-3:AssetInformation ;
+            aas-3:assetKind aas-3:AssetKind_Role ;
+            aas-3:globalAssetId "something_eea66fa1" ] ;
+    aas-3:extensions [ a aas-3:Extension ;
+            aas-3:index 0 ;
+            aas-3:name "something_aae6caf4" ;
+            aas-3:value "24:00:00-13:00" ;
+            aas-3:valueType xsd:time ] ;
+    aas-3:id "something_142922d6" .
+
+[] a aas-3:Environment ;
+    aas-3:assetAdministrationShell <something_142922d6> .
+

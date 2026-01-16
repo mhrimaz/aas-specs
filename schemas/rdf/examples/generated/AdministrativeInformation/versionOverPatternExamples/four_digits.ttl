@@ -1,55 +1,36 @@
-@prefix aas: <https://admin-shell.io/aas/3/1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+# IRI of entities are not normative and can be modified according to your needs.
+@prefix aas-3: <https://admin-shell.io/aas/3/> .
+@prefix aas-iec61360-3: <https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<something_142922d6> rdf:type aas:AssetAdministrationShell ;
-    <https://admin-shell.io/aas/3/1/Identifiable/administration> [
-        rdf:type aas:AdministrativeInformation ;
-        <https://admin-shell.io/aas/3/1/HasDataSpecification/embeddedDataSpecifications> [
-            rdf:type aas:EmbeddedDataSpecification ;
-            <https://admin-shell.io/aas/3/1/EmbeddedDataSpecification/dataSpecification> [
-                rdf:type aas:Reference ;
-                <https://admin-shell.io/aas/3/1/Reference/type> <https://admin-shell.io/aas/3/1/ReferenceTypes/ExternalReference> ;
-                <https://admin-shell.io/aas/3/1/Reference/keys> [
-                    rdf:type aas:Key ;
-                    <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/GlobalReference> ;
-                    <https://admin-shell.io/aas/3/1/Key/value> "urn:something14:18179b7a"^^xs:string ;
-                ] ;
-            ] ;
-            <https://admin-shell.io/aas/3/1/EmbeddedDataSpecification/dataSpecificationContent> [
-                rdf:type aas:DataSpecificationIec61360 ;
-                <https://admin-shell.io/aas/3/1/DataSpecificationIec61360/preferredName> [
-                    rdf:type aas:LangStringPreferredNameTypeIec61360 ;
-                    <https://admin-shell.io/aas/3/1/AbstractLangString/language> "sr-Latn"^^xs:string ;
-                    <https://admin-shell.io/aas/3/1/AbstractLangString/text> "something_7282cc23"^^xs:string ;
-                ] ;
-                <https://admin-shell.io/aas/3/1/DataSpecificationIec61360/preferredName> [
-                    rdf:type aas:LangStringPreferredNameTypeIec61360 ;
-                    <https://admin-shell.io/aas/3/1/AbstractLangString/language> "en-GB"^^xs:string ;
-                    <https://admin-shell.io/aas/3/1/AbstractLangString/text> "Something random in English 0843a1d1"^^xs:string ;
-                ] ;
-                <https://admin-shell.io/aas/3/1/DataSpecificationIec61360/value> "something_bebf64f0"^^xs:string ;
-            ] ;
-        ] ;
-        <https://admin-shell.io/aas/3/1/AdministrativeInformation/version> "1230"^^xs:string ;
-        <https://admin-shell.io/aas/3/1/AdministrativeInformation/revision> "0"^^xs:string ;
-        <https://admin-shell.io/aas/3/1/AdministrativeInformation/creator> [
-            rdf:type aas:Reference ;
-            <https://admin-shell.io/aas/3/1/Reference/type> <https://admin-shell.io/aas/3/1/ReferenceTypes/ModelReference> ;
-            <https://admin-shell.io/aas/3/1/Reference/keys> [
-                rdf:type aas:Key ;
-                <https://admin-shell.io/aas/3/1/Key/type> <https://admin-shell.io/aas/3/1/KeyTypes/Submodel> ;
-                <https://admin-shell.io/aas/3/1/Key/value> "urn:something11:6a596807"^^xs:string ;
-            ] ;
-        ] ;
-        <https://admin-shell.io/aas/3/1/AdministrativeInformation/templateId> "something_cb08d136"^^xs:string ;
-    ] ;
-    <https://admin-shell.io/aas/3/1/Identifiable/id> "something_142922d6"^^xs:string ;
-    <https://admin-shell.io/aas/3/1/AssetAdministrationShell/assetInformation> [
-        rdf:type aas:AssetInformation ;
-        <https://admin-shell.io/aas/3/1/AssetInformation/assetKind> <https://admin-shell.io/aas/3/1/AssetKind/Role> ;
-        <https://admin-shell.io/aas/3/1/AssetInformation/globalAssetId> "something_eea66fa1"^^xs:string ;
-    ] ;
-.
+<something_142922d6> a aas-3:AssetAdministrationShell ;
+    aas-3:administration [ a aas-3:AdministrativeInformation ;
+            aas-3:creator [ a aas-3:Reference ;
+                    aas-3:keys [ a aas-3:Key ;
+                            aas-3:index 0 ;
+                            aas-3:keyType aas-3:KeyTypes_Submodel ;
+                            aas-3:value "urn:something11:6a596807" ] ;
+                    aas-3:referenceType aas-3:ReferenceTypes_ModelReference ] ;
+            aas-3:embeddedDataSpecifications [ a aas-3:EmbeddedDataSpecification ;
+                    aas-3:dataSpecification [ a aas-3:Reference ;
+                            aas-3:keys [ a aas-3:Key ;
+                                    aas-3:index 0 ;
+                                    aas-3:keyType aas-3:KeyTypes_GlobalReference ;
+                                    aas-3:value "urn:something14:18179b7a" ] ;
+                            aas-3:referenceType aas-3:ReferenceTypes_ExternalReference ] ;
+                    aas-3:dataSpecificationContent [ a aas-iec61360-3:DataSpecificationIec61360 ;
+                            aas-iec61360-3:preferredName "Something random in English 0843a1d1"@en-GB,
+                                "something_7282cc23"@sr-Latn ;
+                            aas-iec61360-3:value "something_bebf64f0" ] ;
+                    aas-3:index 0 ] ;
+            aas-3:revision "0" ;
+            aas-3:templateId "something_cb08d136" ;
+            aas-3:version "1230" ] ;
+    aas-3:assetInformation [ a aas-3:AssetInformation ;
+            aas-3:assetKind aas-3:AssetKind_Role ;
+            aas-3:globalAssetId "something_eea66fa1" ] ;
+    aas-3:id "something_142922d6" .
+
+[] a aas-3:Environment ;
+    aas-3:assetAdministrationShell <something_142922d6> .
+
