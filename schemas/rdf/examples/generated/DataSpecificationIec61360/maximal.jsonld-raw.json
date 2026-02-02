@@ -1,0 +1,156 @@
+{
+  "@context": {
+    "aas-3": "https://admin-shell.io/aas/3/",
+    "aas-iec61360-3": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "something_142922d6",
+      "@type": "aas-3:AssetAdministrationShell",
+      "aas-3:assetInformation": {
+        "@id": "_:Nac61492ada8a459ea42676dd708cb15d"
+      },
+      "aas-3:embeddedDataSpecifications": {
+        "@id": "_:Ne070377219e34806a060085a3b538d93"
+      },
+      "aas-3:id": "something_142922d6",
+      "aas-3:modelVersion": "3.1"
+    },
+    {
+      "@id": "_:Ne070377219e34806a060085a3b538d93",
+      "@type": "aas-3:EmbeddedDataSpecification",
+      "aas-3:dataSpecification": {
+        "@id": "_:N5f79cf9df0d742adbfce6cf1ea6312b6"
+      },
+      "aas-3:dataSpecificationContent": {
+        "@id": "_:Ndc52f4c749ae4b5b834d7999ed4486dd"
+      },
+      "aas-3:index": 0
+    },
+    {
+      "@id": "_:N5f79cf9df0d742adbfce6cf1ea6312b6",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:N6b28576720bc4e059fa9bc0e194f5173"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ExternalReference"
+      }
+    },
+    {
+      "@id": "_:N6b28576720bc4e059fa9bc0e194f5173",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_GlobalReference"
+      },
+      "aas-3:value": "urn:some-company06:e9f47be2"
+    },
+    {
+      "@id": "_:Ndc52f4c749ae4b5b834d7999ed4486dd",
+      "@type": "aas-iec61360-3:DataSpecificationIec61360",
+      "aas-iec61360-3:dataType": {
+        "@id": "aas-iec61360-3:Date"
+      },
+      "aas-iec61360-3:definition": {
+        "@language": "de-Qaaa",
+        "@value": "something_2ae95f9f"
+      },
+      "aas-iec61360-3:levelType": {
+        "@id": "_:Nae286c6fc2cb440a9ff52f9e619d5e0a"
+      },
+      "aas-iec61360-3:preferredName": [
+        {
+          "@language": "i-enochian",
+          "@value": "something_84b0b440"
+        },
+        {
+          "@language": "en-GB",
+          "@value": "Something random in English 5b15c20d"
+        }
+      ],
+      "aas-iec61360-3:shortName": {
+        "@language": "x-whatever",
+        "@value": "something_65af8271"
+      },
+      "aas-iec61360-3:sourceOfDefinition": "something_1bd907c8",
+      "aas-iec61360-3:symbol": "something_c13116d7",
+      "aas-iec61360-3:unit": "something_a6bd9450",
+      "aas-iec61360-3:unitId": {
+        "@id": "_:N59b8dc0190704b0181c65af7ec5f2176"
+      },
+      "aas-iec61360-3:value": "something_13759f45",
+      "aas-iec61360-3:valueFormat": "something_f019e5a8"
+    },
+    {
+      "@id": "_:N59b8dc0190704b0181c65af7ec5f2176",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:N38a932d094e54a249a67748f9727d4a5"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ModelReference"
+      }
+    },
+    {
+      "@id": "_:N38a932d094e54a249a67748f9727d4a5",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_Submodel"
+      },
+      "aas-3:value": "urn:an-example01:69d96aad"
+    },
+    {
+      "@id": "_:Nae286c6fc2cb440a9ff52f9e619d5e0a",
+      "@type": "aas-iec61360-3:LevelType",
+      "aas-iec61360-3:max": true,
+      "aas-iec61360-3:min": true,
+      "aas-iec61360-3:nom": true,
+      "aas-iec61360-3:typ": true
+    },
+    {
+      "@id": "_:Nac61492ada8a459ea42676dd708cb15d",
+      "@type": "aas-3:AssetInformation",
+      "aas-3:assetKind": {
+        "@id": "aas-3:AssetKind_Role"
+      },
+      "aas-3:globalAssetId": "something_eea66fa1"
+    },
+    {
+      "@id": "_:Nd018f7936e874b82b91fbfea73794887",
+      "@type": "aas-3:Environment",
+      "aas-3:assetAdministrationShell": {
+        "@id": "something_142922d6"
+      }
+    }
+  ]
+}

@@ -4,10 +4,11 @@
 
 <something_48c66017> a aas-3:Submodel ;
     aas-3:id "something_48c66017" ;
+    aas-3:modelVersion "3.1" ;
     aas-3:qualifiers [ a aas-3:Qualifier ;
             aas-3:index 0 ;
             aas-3:qualifierType "something_5964ab43" ;
-            aas-3:value "-65822-10" ;
+            aas-3:value "-65822-10"^^xsd:gYearMonth ;
             aas-3:valueType xsd:gYearMonth ] .
 
 [] a aas-3:Environment ;

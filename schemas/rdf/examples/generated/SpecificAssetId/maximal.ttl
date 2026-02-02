@@ -28,7 +28,8 @@
                                     aas-3:value "urn:an-example17:bb4c21a1" ] ;
                             aas-3:referenceType aas-3:ReferenceTypes_ModelReference ] ;
                     aas-3:value "something_a37abe43" ] ] ;
-    aas-3:id "something_142922d6" .
+    aas-3:id "something_142922d6" ;
+    aas-3:modelVersion "3.1" .
 
 [] a aas-3:Environment ;
     aas-3:assetAdministrationShell <something_142922d6> .

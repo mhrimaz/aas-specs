@@ -1,0 +1,235 @@
+{
+  "@context": {
+    "aas-3": "https://admin-shell.io/aas/3/",
+    "aas-iec61360-3": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "something_48c66017/submodel-elements/AopQejF",
+      "@type": "aas-3:BasicEventElement",
+      "aas-3:category": "something_d7cf2dff",
+      "aas-3:description": {
+        "@language": "es-419",
+        "@value": "something_be9deae0"
+      },
+      "aas-3:direction": {
+        "@id": "aas-3:Direction_Output"
+      },
+      "aas-3:displayName": {
+        "@language": "zh-CN-a-myext-x-private",
+        "@value": "something_535aeb51"
+      },
+      "aas-3:embeddedDataSpecifications": {
+        "@id": "_:N87956d3ac03b4ab980cbd2cce52bdb63"
+      },
+      "aas-3:extensions": {
+        "@id": "_:N43aa412f801f45e3894ed802d7138ac7"
+      },
+      "aas-3:idShort": "AopQejF",
+      "aas-3:index": 0,
+      "aas-3:lastUpdate": "-3020-08-21T24:00:00.0Z",
+      "aas-3:maxInterval": "PT130S",
+      "aas-3:messageBroker": {
+        "@id": "_:N6a11eef59bdb44db922c8013daefaad2"
+      },
+      "aas-3:messageTopic": "something_99f1a7ac",
+      "aas-3:minInterval": "-P1Y",
+      "aas-3:observed": {
+        "@id": "_:Nf17afb178c8748fc844d8077acd301ea"
+      },
+      "aas-3:qualifiers": {
+        "@id": "_:N68ab9443e377450898b9e1a1429707b8"
+      },
+      "aas-3:semanticId": {
+        "@id": "_:N144f6bc726564c2a87c0a93ac51ad26e"
+      },
+      "aas-3:state": {
+        "@id": "aas-3:StateOfEvent_Off"
+      },
+      "aas-3:supplementalSemanticIds": {
+        "@id": "_:N4849f3f5c4ec44699450a455112a4a38"
+      }
+    },
+    {
+      "@id": "_:N43aa412f801f45e3894ed802d7138ac7",
+      "@type": "aas-3:Extension",
+      "aas-3:index": 0,
+      "aas-3:name": "something_aa1af8b3"
+    },
+    {
+      "@id": "_:N144f6bc726564c2a87c0a93ac51ad26e",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:Ne67579efe59f451da7cf90420386bfa0"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ExternalReference"
+      }
+    },
+    {
+      "@id": "_:Ne67579efe59f451da7cf90420386bfa0",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_GlobalReference"
+      },
+      "aas-3:value": "urn:something00:f4547d0c"
+    },
+    {
+      "@id": "_:N4849f3f5c4ec44699450a455112a4a38",
+      "@type": "aas-3:Reference",
+      "aas-3:index": 0,
+      "aas-3:keys": {
+        "@id": "_:Naf9a60d9811043fba0c0b40af9e29798"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ModelReference"
+      }
+    },
+    {
+      "@id": "_:Naf9a60d9811043fba0c0b40af9e29798",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_Submodel"
+      },
+      "aas-3:value": "urn:another-example10:42487f5a"
+    },
+    {
+      "@id": "_:N68ab9443e377450898b9e1a1429707b8",
+      "@type": "aas-3:Qualifier",
+      "aas-3:index": 0,
+      "aas-3:qualifierType": "something_500f973e",
+      "aas-3:valueType": {
+        "@id": "xsd:long"
+      }
+    },
+    {
+      "@id": "_:N87956d3ac03b4ab980cbd2cce52bdb63",
+      "@type": "aas-3:EmbeddedDataSpecification",
+      "aas-3:dataSpecification": {
+        "@id": "_:N3fa45ca3924c4c599e009bb10b0368ff"
+      },
+      "aas-3:dataSpecificationContent": {
+        "@id": "_:N8594ab5003ac43b4ae39797fa2e626db"
+      },
+      "aas-3:index": 0
+    },
+    {
+      "@id": "_:N3fa45ca3924c4c599e009bb10b0368ff",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:N3cc2fa7be9774ba2ac69d32ad385a766"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ModelReference"
+      }
+    },
+    {
+      "@id": "_:N3cc2fa7be9774ba2ac69d32ad385a766",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_Submodel"
+      },
+      "aas-3:value": "urn:another-company15:2bd0986b"
+    },
+    {
+      "@id": "_:N8594ab5003ac43b4ae39797fa2e626db",
+      "@type": "aas-iec61360-3:DataSpecificationIec61360",
+      "aas-iec61360-3:preferredName": [
+        {
+          "@language": "sl-rozaj-biske",
+          "@value": "something_7e795ee2"
+        },
+        {
+          "@language": "en-GB",
+          "@value": "Something random in English c8512bdf"
+        }
+      ],
+      "aas-iec61360-3:value": "something_4e9c19b7"
+    },
+    {
+      "@id": "_:Nf17afb178c8748fc844d8077acd301ea",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:Ndb72eeef2f464295b6bdc1635fe56efd"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ModelReference"
+      }
+    },
+    {
+      "@id": "_:Ndb72eeef2f464295b6bdc1635fe56efd",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_Submodel"
+      },
+      "aas-3:value": "urn:another-example11:3679ef43"
+    },
+    {
+      "@id": "_:N6a11eef59bdb44db922c8013daefaad2",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:N6725a7eab4c54f728c7f334d8fd7cf04"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ModelReference"
+      }
+    },
+    {
+      "@id": "_:N6725a7eab4c54f728c7f334d8fd7cf04",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_Submodel"
+      },
+      "aas-3:value": "urn:another-example03:6701c2eb"
+    },
+    {
+      "@id": "something_48c66017",
+      "@type": "aas-3:Submodel",
+      "aas-3:id": "something_48c66017",
+      "aas-3:modelVersion": "3.1",
+      "aas-3:submodelElements": {
+        "@id": "something_48c66017/submodel-elements/AopQejF"
+      }
+    },
+    {
+      "@id": "_:Nda01317f4c9a4a3980977437b4be6563",
+      "@type": "aas-3:Environment",
+      "aas-3:submodel": {
+        "@id": "something_48c66017"
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "aas-3": "https://admin-shell.io/aas/3/",
+    "aas-iec61360-3": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:N239e8ddc6e4f45be8288399e033a37f0",
+      "@type": "aas-3:Environment",
+      "aas-3:submodel": {
+        "@id": "https://example.com/some-submodel"
+      }
+    },
+    {
+      "@id": "https://example.com/some-submodel",
+      "@type": "aas-3:Submodel",
+      "aas-3:id": "https://example.com/some-submodel",
+      "aas-3:idShort": "someSubmodel",
+      "aas-3:modelVersion": "3.1",
+      "aas-3:submodelElements": {
+        "@id": "https://example.com/some-submodel/someElement"
+      }
+    },
+    {
+      "@id": "https://example.com/some-submodel/someElement",
+      "@type": "aas-3:ReferenceElement",
+      "aas-3:idShort": "someElement",
+      "aas-3:index": 0,
+      "aas-3:value": {
+        "@id": "_:N41a403a1d6a642d9bae6b42af95ebc3c"
+      }
+    },
+    {
+      "@id": "_:N41a403a1d6a642d9bae6b42af95ebc3c",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:Na13736a9a0aa47738fae437d35f1fea6"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ExternalReference"
+      }
+    },
+    {
+      "@id": "_:Na13736a9a0aa47738fae437d35f1fea6",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_GlobalReference"
+      },
+      "aas-3:value": "https://example.com/something"
+    }
+  ]
+}

@@ -29,9 +29,10 @@
                             aas-3:keyType aas-3:KeyTypes_GlobalReference ;
                             aas-3:value "urn:an-example13:be48ff29" ] ;
                     aas-3:referenceType aas-3:ReferenceTypes_ExternalReference ] ;
-            aas-3:value "10233" ;
+            aas-3:value "10233"^^xsd:unsignedShort ;
             aas-3:valueType xsd:unsignedShort ] ;
-    aas-3:id "something_142922d6" .
+    aas-3:id "something_142922d6" ;
+    aas-3:modelVersion "3.1" .
 
 [] a aas-3:Environment ;
     aas-3:assetAdministrationShell <something_142922d6> .

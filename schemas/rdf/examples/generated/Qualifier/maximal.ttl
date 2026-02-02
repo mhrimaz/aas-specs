@@ -4,6 +4,7 @@
 
 <something_48c66017> a aas-3:Submodel ;
     aas-3:id "something_48c66017" ;
+    aas-3:modelVersion "3.1" ;
     aas-3:modelingKind aas-3:ModellingKind_Template ;
     aas-3:qualifiers [ a aas-3:Qualifier ;
             aas-3:index 0 ;
@@ -22,7 +23,7 @@
                             aas-3:keyType aas-3:KeyTypes_GlobalReference ;
                             aas-3:value "urn:an-example17:1456e435" ] ;
                     aas-3:referenceType aas-3:ReferenceTypes_ExternalReference ] ;
-            aas-3:value "001" ;
+            aas-3:value 001 ;
             aas-3:valueId [ a aas-3:Reference ;
                     aas-3:keys [ a aas-3:Key ;
                             aas-3:index 0 ;

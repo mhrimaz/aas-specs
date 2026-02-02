@@ -5,6 +5,7 @@
 
 <something_48c66017> a aas-3:Submodel ;
     aas-3:id "something_48c66017" ;
+    aas-3:modelVersion "3.1" ;
     aas-3:submodelElements <something_48c66017/submodel-elements/t8x1pz9WS4TGV> .
 
 <something_48c66017/submodel-elements/t8x1pz9WS4TGV> a aas-3:Range ;
@@ -28,7 +29,7 @@
             aas-3:name "something_aa1af8b3" ] ;
     aas-3:idShort "t8x1pz9WS4TGV" ;
     aas-3:index 0 ;
-    aas-3:max "1234.1234567890123456789012345678901234567890123456789012345678901234567890" ;
+    aas-3:max 1234.1234567890123456789012345678901234567890123456789012345678901234567890 ;
     aas-3:qualifiers [ a aas-3:Qualifier ;
             aas-3:index 0 ;
             aas-3:qualifierType "something_500f973e" ;

@@ -2,7 +2,8 @@
 @prefix aas-3: <https://admin-shell.io/aas/3/> .
 
 <something_8ccad77f> a aas-3:ConceptDescription ;
-    aas-3:id "something_8ccad77f" .
+    aas-3:id "something_8ccad77f" ;
+    aas-3:modelVersion "3.1" .
 
 [] a aas-3:Environment ;
     aas-3:conceptDescription <something_8ccad77f> .

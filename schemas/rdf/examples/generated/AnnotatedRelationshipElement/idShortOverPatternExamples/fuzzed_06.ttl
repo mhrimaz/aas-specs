@@ -5,6 +5,7 @@
 
 <something_48c66017> a aas-3:Submodel ;
     aas-3:id "something_48c66017" ;
+    aas-3:modelVersion "3.1" ;
     aas-3:submodelElements <something_48c66017/submodel-elements/tWC> .
 
 <something_48c66017/submodel-elements/tWC> a aas-3:AnnotatedRelationshipElement ;

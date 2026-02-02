@@ -5,6 +5,7 @@
 <https://example.com/some-submodel> a aas-3:Submodel ;
     aas-3:id "https://example.com/some-submodel" ;
     aas-3:idShort "someSubmodel" ;
+    aas-3:modelVersion "3.1" ;
     aas-3:submodelElements <https://example.com/some-submodel/someElement> .
 
 <https://example.com/some-submodel/someElement> a aas-3:ReferenceElement ;

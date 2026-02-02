@@ -9,9 +9,10 @@
     aas-3:extensions [ a aas-3:Extension ;
             aas-3:index 0 ;
             aas-3:name "something_aae6caf4" ;
-            aas-3:value "--11" ;
+            aas-3:value "--11"^^xsd:gMonth ;
             aas-3:valueType xsd:gMonth ] ;
-    aas-3:id "something_142922d6" .
+    aas-3:id "something_142922d6" ;
+    aas-3:modelVersion "3.1" .
 
 [] a aas-3:Environment ;
     aas-3:assetAdministrationShell <something_142922d6> .

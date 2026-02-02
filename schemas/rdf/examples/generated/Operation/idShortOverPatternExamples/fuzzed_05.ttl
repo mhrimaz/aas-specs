@@ -8,6 +8,7 @@
 
 <something_48c66017> a aas-3:Submodel ;
     aas-3:id "something_48c66017" ;
+    aas-3:modelVersion "3.1" ;
     aas-3:submodelElements <something_48c66017/submodel-elements/t8x1pz9WS4TGV> .
 
 <something_48c66017/submodel-elements/t8x1pz9WS4TGV> a aas-3:Operation ;

@@ -2,7 +2,8 @@
 @prefix aas-3: <https://admin-shell.io/aas/3/> .
 
 <something_48c66017> a aas-3:Submodel ;
-    aas-3:id "something_48c66017" .
+    aas-3:id "something_48c66017" ;
+    aas-3:modelVersion "3.1" .
 
 [] a aas-3:Environment ;
     aas-3:submodel <something_48c66017> .

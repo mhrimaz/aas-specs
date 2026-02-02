@@ -6,7 +6,8 @@
             aas-3:assetKind aas-3:AssetKind_Role ;
             aas-3:globalAssetId "something_eea66fa1" ] ;
     aas-3:displayName "something_09c304fd"@cmn-Hans-CN ;
-    aas-3:id "something_142922d6" .
+    aas-3:id "something_142922d6" ;
+    aas-3:modelVersion "3.1" .
 
 [] a aas-3:Environment ;
     aas-3:assetAdministrationShell <something_142922d6> .

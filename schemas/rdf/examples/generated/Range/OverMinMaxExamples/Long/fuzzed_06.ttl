@@ -4,13 +4,14 @@
 
 <something_48c66017> a aas-3:Submodel ;
     aas-3:id "something_48c66017" ;
+    aas-3:modelVersion "3.1" ;
     aas-3:submodelElements <something_48c66017/submodel-elements/something3fdd3eb4> .
 
 <something_48c66017/submodel-elements/something3fdd3eb4> a aas-3:Range ;
     aas-3:idShort "something3fdd3eb4" ;
     aas-3:index 0 ;
-    aas-3:max "004775" ;
-    aas-3:min "004775" ;
+    aas-3:max "004775"^^xsd:long ;
+    aas-3:min "004775"^^xsd:long ;
     aas-3:valueType xsd:long .
 
 [] a aas-3:Environment ;

@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "aas-3": "https://admin-shell.io/aas/3/",
+    "aas-iec61360-3": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:N7f77e424e0104a64b6a09fb4a6c20795",
+      "@type": "aas-3:Environment",
+      "aas-3:assetAdministrationShell": {
+        "@id": "something_142922d6"
+      }
+    },
+    {
+      "@id": "something_142922d6",
+      "@type": "aas-3:AssetAdministrationShell",
+      "aas-3:assetInformation": {
+        "@id": "_:N4ef7b14572c241c6b9304bffdc7aaae1"
+      },
+      "aas-3:id": "something_142922d6",
+      "aas-3:modelVersion": "3.1"
+    },
+    {
+      "@id": "_:N4ef7b14572c241c6b9304bffdc7aaae1",
+      "@type": "aas-3:AssetInformation",
+      "aas-3:assetKind": {
+        "@id": "aas-3:AssetKind_Role"
+      },
+      "aas-3:defaultThumbnail": {
+        "@id": "_:Nec41d5fa72cf46c2827542331aefb273"
+      },
+      "aas-3:globalAssetId": "something_eea66fa1"
+    },
+    {
+      "@id": "_:Nec41d5fa72cf46c2827542331aefb273",
+      "@type": "aas-3:Resource",
+      "aas-3:contentType": "application/x-abiword",
+      "aas-3:path": "q2t2uv://777646689268.160810318.01435447069935.47:/%Be/%04@%Cd@P%dc:C$&~x=;%3f9+;;sr-i=p,///;%D5@@x&;V@I%16/+;%e4,@%AA@Ih:%8Dg=%F8P,v%dE%3E%03%62%FB=$R,&%ac%71;u%11l8*;,;$%Faj:;;;%ee$%8b%EC@%4Alo;t,%0b%eB%D5%EA:%De;$$1:@/%8e%0D&9%C8M;@5%28%4E%BC@%34;;@%EC=tL)x(/M%D3%aF&%Ec;=%aa$$j;;%B3@hk=e:%DB%24Z;%F6%9E+%8e;=;%ba;;%b3;;p%f11=%34%c0;#lR:+k%BE4%EB"
+    }
+  ]
+}

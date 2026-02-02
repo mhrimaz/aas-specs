@@ -25,6 +25,7 @@
             aas-3:name "something_5b2d373a" ] ;
     aas-3:id "something_48c66017" ;
     aas-3:idShort "P7gn" ;
+    aas-3:modelVersion "3.1" ;
     aas-3:modelingKind aas-3:ModellingKind_Instance ;
     aas-3:qualifiers [ a aas-3:Qualifier ;
             aas-3:index 0 ;

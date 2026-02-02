@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "aas-3": "https://admin-shell.io/aas/3/",
+    "aas-iec61360-3": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:Na5124e6fb5c54c23862edbb9b3c29f99",
+      "@type": "aas-3:Environment",
+      "aas-3:conceptDescription": {
+        "@id": "something_8ccad77f"
+      }
+    },
+    {
+      "@id": "something_8ccad77f",
+      "@type": "aas-3:ConceptDescription",
+      "aas-3:administration": {
+        "@id": "_:N6570868679c54c08ab56f37315d4dcce"
+      },
+      "aas-3:category": "something_07a45fb3",
+      "aas-3:description": {
+        "@language": "az-Arab-x-AZE-derbend",
+        "@value": "something_863a162e"
+      },
+      "aas-3:displayName": {
+        "@language": "zh-Hant",
+        "@value": "something_c7c0c4c8"
+      },
+      "aas-3:embeddedDataSpecifications": {
+        "@id": "_:N2711ca24014346caa13328d9766cfb63"
+      },
+      "aas-3:extensions": {
+        "@id": "_:N7129373777fb464bbdb281607a03bc30"
+      },
+      "aas-3:id": "something_8ccad77f",
+      "aas-3:idShort": "t8x1pz9WS4TGV",
+      "aas-3:isCaseOf": {
+        "@id": "_:N08fd8c36b14e419e959bae6a96b7093b"
+      },
+      "aas-3:modelVersion": "3.1"
+    },
+    {
+      "@id": "_:N6570868679c54c08ab56f37315d4dcce",
+      "@type": "aas-3:AdministrativeInformation"
+    },
+    {
+      "@id": "_:N7129373777fb464bbdb281607a03bc30",
+      "@type": "aas-3:Extension",
+      "aas-3:index": 0,
+      "aas-3:name": "something_4b532e77"
+    },
+    {
+      "@id": "_:N2711ca24014346caa13328d9766cfb63",
+      "@type": "aas-3:EmbeddedDataSpecification",
+      "aas-3:dataSpecification": {
+        "@id": "_:N514e65dd9f894d7f9e048a6105d55149"
+      },
+      "aas-3:dataSpecificationContent": {
+        "@id": "_:Nbf4480e0b21c46c5811be3e7d1586c00"
+      },
+      "aas-3:index": 0
+    },
+    {
+      "@id": "_:N514e65dd9f894d7f9e048a6105d55149",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:N6468c59c6e7841e1a69ae710f35f6bc7"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ModelReference"
+      }
+    },
+    {
+      "@id": "_:N6468c59c6e7841e1a69ae710f35f6bc7",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_Submodel"
+      },
+      "aas-3:value": "urn:example14:c4971d26"
+    },
+    {
+      "@id": "_:Nbf4480e0b21c46c5811be3e7d1586c00",
+      "@type": "aas-iec61360-3:DataSpecificationIec61360",
+      "aas-iec61360-3:preferredName": [
+        {
+          "@language": "hy-Latn-IT-arevela",
+          "@value": "something_34113ec1"
+        },
+        {
+          "@language": "en-GB",
+          "@value": "Something random in English 19945c14"
+        }
+      ],
+      "aas-iec61360-3:value": "something_a864dcb4"
+    },
+    {
+      "@id": "_:N08fd8c36b14e419e959bae6a96b7093b",
+      "@type": "aas-3:Reference",
+      "aas-3:index": 0,
+      "aas-3:keys": {
+        "@id": "_:Nff106a1ae9234deabad32d6f902e6848"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ExternalReference"
+      }
+    },
+    {
+      "@id": "_:Nff106a1ae9234deabad32d6f902e6848",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_GlobalReference"
+      },
+      "aas-3:value": "urn:some-company09:4fffee11"
+    }
+  ]
+}

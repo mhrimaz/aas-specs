@@ -1,0 +1,192 @@
+{
+  "@context": {
+    "aas-3": "https://admin-shell.io/aas/3/",
+    "aas-iec61360-3": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "something_48c66017",
+      "@type": "aas-3:Submodel",
+      "aas-3:administration": {
+        "@id": "_:Nbcd648b50c8d455ba810232bbce17e1e"
+      },
+      "aas-3:category": "something_91042c92",
+      "aas-3:description": {
+        "@language": "es-419",
+        "@value": "something_9a9e9635"
+      },
+      "aas-3:displayName": {
+        "@language": "sl-IT-nedis",
+        "@value": "something_433531c5"
+      },
+      "aas-3:embeddedDataSpecifications": {
+        "@id": "_:N251dbdc81d544d7ba8d478f93cd21a9b"
+      },
+      "aas-3:extensions": {
+        "@id": "_:N40abcc3d4c4741f48d5ec949f441b1bc"
+      },
+      "aas-3:id": "something_48c66017",
+      "aas-3:idShort": "t8x1pz9WS4TGV",
+      "aas-3:modelVersion": "3.1",
+      "aas-3:modelingKind": {
+        "@id": "aas-3:ModellingKind_Instance"
+      },
+      "aas-3:qualifiers": {
+        "@id": "_:N48bb0c0d3292488c92bc5dbf0cad0a11"
+      },
+      "aas-3:semanticId": {
+        "@id": "_:N49f7942f3aff4bc69ce5f7e2d1d6f6f0"
+      },
+      "aas-3:submodelElements": {
+        "@id": "something_48c66017/submodel-elements/something3fdd3eb4"
+      },
+      "aas-3:supplementalSemanticIds": {
+        "@id": "_:N5d1083a8dbee4ec385add7d3b6e17bc0"
+      }
+    },
+    {
+      "@id": "_:Nbcd648b50c8d455ba810232bbce17e1e",
+      "@type": "aas-3:AdministrativeInformation"
+    },
+    {
+      "@id": "_:N40abcc3d4c4741f48d5ec949f441b1bc",
+      "@type": "aas-3:Extension",
+      "aas-3:index": 0,
+      "aas-3:name": "something_5b2d373a"
+    },
+    {
+      "@id": "_:N49f7942f3aff4bc69ce5f7e2d1d6f6f0",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:N8dda6bc74b834ceca4ecf930e18f36bb"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ExternalReference"
+      }
+    },
+    {
+      "@id": "_:N8dda6bc74b834ceca4ecf930e18f36bb",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_GlobalReference"
+      },
+      "aas-3:value": "urn:an-example06:3dc4e5fa"
+    },
+    {
+      "@id": "_:N5d1083a8dbee4ec385add7d3b6e17bc0",
+      "@type": "aas-3:Reference",
+      "aas-3:index": 0,
+      "aas-3:keys": {
+        "@id": "_:N1d75c4d3aa3d48d380772a16edd667e0"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ModelReference"
+      }
+    },
+    {
+      "@id": "_:N1d75c4d3aa3d48d380772a16edd667e0",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_Submodel"
+      },
+      "aas-3:value": "urn:something12:6e125b08"
+    },
+    {
+      "@id": "_:N251dbdc81d544d7ba8d478f93cd21a9b",
+      "@type": "aas-3:EmbeddedDataSpecification",
+      "aas-3:dataSpecification": {
+        "@id": "_:N5974b9be02254726832d4b37ea5d272c"
+      },
+      "aas-3:dataSpecificationContent": {
+        "@id": "_:Nb9c6b814e18542ba86993c4db768769f"
+      },
+      "aas-3:index": 0
+    },
+    {
+      "@id": "_:N5974b9be02254726832d4b37ea5d272c",
+      "@type": "aas-3:Reference",
+      "aas-3:keys": {
+        "@id": "_:N6304000bd32042d0b6351c30fe441ec2"
+      },
+      "aas-3:referenceType": {
+        "@id": "aas-3:ReferenceTypes_ExternalReference"
+      }
+    },
+    {
+      "@id": "_:N6304000bd32042d0b6351c30fe441ec2",
+      "@type": "aas-3:Key",
+      "aas-3:index": 0,
+      "aas-3:keyType": {
+        "@id": "aas-3:KeyTypes_GlobalReference"
+      },
+      "aas-3:value": "urn:some-company07:80412e8f"
+    },
+    {
+      "@id": "_:Nb9c6b814e18542ba86993c4db768769f",
+      "@type": "aas-iec61360-3:DataSpecificationIec61360",
+      "aas-iec61360-3:preferredName": [
+        {
+          "@language": "zh-cmn-Hans-CN",
+          "@value": "something_be8bb8c1"
+        },
+        {
+          "@language": "en-GB",
+          "@value": "Something random in English fbebdf98"
+        }
+      ],
+      "aas-iec61360-3:value": "something_db2f0b6e"
+    },
+    {
+      "@id": "_:N48bb0c0d3292488c92bc5dbf0cad0a11",
+      "@type": "aas-3:Qualifier",
+      "aas-3:index": 0,
+      "aas-3:qualifierType": "something_031fba58",
+      "aas-3:valueType": {
+        "@id": "xsd:int"
+      }
+    },
+    {
+      "@id": "something_48c66017/submodel-elements/something3fdd3eb4",
+      "@type": "aas-3:AnnotatedRelationshipElement",
+      "aas-3:idShort": "something3fdd3eb4",
+      "aas-3:index": 0
+    },
+    {
+      "@id": "_:Na70d6b010dad4533abf9aa7b9076ea91",
+      "@type": "aas-3:Environment",
+      "aas-3:submodel": {
+        "@id": "something_48c66017"
+      }
+    }
+  ]
+}
